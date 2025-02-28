@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-from backend.src.data_templates.course import Course
+from ..src.data_templates.course import Course
 
 def get_certificates(catalog_url):
     response = requests.get(catalog_url)

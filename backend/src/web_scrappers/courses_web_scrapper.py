@@ -1,6 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
-from backend.src.data_templates.course import Course
+from data_templates.course_template import Course
+from web_scrappers.web_scrappers_util import remove_html_entities
+
 
 def get_subjects(catalog_url):
     response = requests.get(catalog_url)
@@ -8,6 +10,7 @@ def get_subjects(catalog_url):
     get_subjects = soup.find("div", class_="az_sitemap")
     subjects_dict = {}
     links_dict = {}
+
     for header in get_subjects.find_all("h2", class_="letternav-head"):
         letter = header.text.strip()
         subjects_dict[f"{letter}_subjects"] = []
@@ -15,8 +18,13 @@ def get_subjects(catalog_url):
 
         ul = header.find_next_sibling("ul")  # Find the next <ul> after <h2>
         if ul:
-            subjects_dict[f"{letter}_subjects"] = [li.text.strip() for li in ul.find_all("li")]
-            links_dict[f"{letter}_links"] = [a["href"] for a in ul.find_all("a")]
+            subjects_dict[f"{letter}_subjects"] = [
+                li.text.strip() for li in ul.find_all("li")
+            ]
+            links_dict[f"{letter}_links"] = [
+                a["href"] for a in ul.find_all("a")
+            ]
+
     return subjects_dict, links_dict
 
 def get_courses(subject_url):
@@ -24,34 +32,51 @@ def get_courses(subject_url):
     soup2 = BeautifulSoup(response_2.text, "html.parser")
     courses = []
 
-    course_blocks = soup2.find_all("div", class_="courseblock courseblocktoggle")
+    course_blocks = soup2.find_all("div",
+                                   class_="courseblock courseblocktoggle")
     for block in course_blocks:
         try:
             title_tag = block.find("p", class_="courseblocktitle")
             description_tag = block.find("p", class_="courseblockdesc")
-            prerequisite_tags = block.find_all("p", class_="courseblockextra noindent")
+            prerequisite_tags = block.find_all(
+                "p", class_="courseblockextra noindent"
+            )
 
             if title_tag:
                 title_text = title_tag.get_text(" ", strip=True)
                 parts = title_text.split()
-                code = " ".join(parts[:2])  # First two parts are the course code
-                credits = parts[-2] if "Credits" or "Credit" in parts[-1] else ""
+                code = " ".join(parts[:2])  # 1st two parts are the course code
+                credits = parts[-2] if "Credit" in parts[-1] else ""
                 name = " ".join(parts[2:-2] if credits else parts[2:])
+                description = description_tag.get_text(" ", strip=True) if (
+                    description_tag) else ""
 
-                description = description_tag.get_text(" ", strip=True) if description_tag else ""
                 if len(prerequisite_tags) > 1:
-                    prerequisite = prerequisite_tags[1].get_text(" ", strip=True).replace("Prerequisite: ", "")
+                    prerequisite = prerequisite_tags[1].get_text(
+                        " ", strip=True).replace("Prerequisite: ", "")
                     prerequisite = prerequisite.replace(" .", ".")
                     prerequisite = prerequisite.replace("( ", "(")
                     prerequisite = prerequisite.replace(" )", ")")
+                    prerequisite = prerequisite.replace(" ,", ",")
                 else:
                     prerequisite = "None"
 
-                courses.append(Course(code, credits, name, description, prerequisite))
+                courses.append(
+                    Course(
+                        remove_html_entities(code),
+                        remove_html_entities(credits),
+                        remove_html_entities(name),
+                        remove_html_entities(description),
+                        remove_html_entities(prerequisite)
+                    )
+                )
+
         except Exception as e:
             print(f"Error parsing course: {e}")
             continue
+
     return courses
+
 
 def main():
     base_url = "https://catalog.ufl.edu"
@@ -68,6 +93,7 @@ def main():
             print(links)
             for course in courses:
                 print(course)
+
 
 if __name__ == "__main__":
     main()
