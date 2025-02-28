@@ -1,5 +1,4 @@
 # *Timewise Backend*
-##### *Plan smart, stress less*
 ___
 
 ## *How to Run*
@@ -20,8 +19,8 @@ src/
 To run the file, cd into the src directory and then run the following command:
 - `python -m create.lib.test {any program arguments here}`
 
-Note: it is imperative that you use the `-m` flag as are structuring our files 
-as Python modules.
+Note: it is imperative that you use the `-m` flag as we are structuring our
+files as Python modules.
 ___
 
 ## *File Structure*
