@@ -1,11 +1,11 @@
 import requests
 from bs4 import BeautifulSoup
-from Course import Course
+from backend.src.data_templates.course import Course
 
-def get_subjects(catalog_url):
+def get_certificates(catalog_url):
     response = requests.get(catalog_url)
     soup = BeautifulSoup(response.text, "html.parser")
-    get_subjects = soup.find("div", class_="az_sitemap")
+    get_subjects = soup.find("div", class_="filter-items list")
     subjects_dict = {}
     links_dict = {}
     for header in get_subjects.find_all("h2", class_="letternav-head"):
@@ -54,20 +54,14 @@ def get_courses(subject_url):
     return courses
 
 def main():
-    base_url = "https://catalog.ufl.edu"
-    catalog_url = f"{base_url}/UGRD/courses"
-    dicts = get_subjects(catalog_url)
+    catalog_url = "https://catalog.ufl.edu/UGRD/programs/#filter=.filter_24"
+    dicts = get_certificates(catalog_url)
 
     subj_dict = dicts[0]
     links_dict = dicts[1]
 
-    for value in links_dict.values():
-        for links in value:
-            subject_url = f"{base_url}{links}"
-            courses = get_courses(subject_url)
-            print(links)
-            for course in courses:
-                print(course)
+    print(subj_dict)
+    print(links_dict)
 
 if __name__ == "__main__":
     main()
