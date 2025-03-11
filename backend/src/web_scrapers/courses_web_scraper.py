@@ -1,8 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
+# Run as modules to prevent errors
 from data_templates.course_template import Course
 from web_scrappers.web_scrappers_util import remove_html_entities
-
 
 def get_subjects(catalog_url):
     response = requests.get(catalog_url)

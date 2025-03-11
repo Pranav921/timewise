@@ -1,3 +1,4 @@
 .DS_STORE
 /backend/src/model_cache
 /.idea
+**/__pycache__
