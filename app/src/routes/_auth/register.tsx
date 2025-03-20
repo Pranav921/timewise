@@ -61,7 +61,7 @@ function RouteComponent() {
             onChange={(e) => setPassword(e.target.value)}
           />
         </div>
-        <Button type="submit" className="mt-5">
+        <Button className="w-full py-1.5 mt-5" type="submit">
           Create
         </Button>
       </form>

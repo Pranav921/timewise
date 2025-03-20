@@ -14,7 +14,9 @@ import { Route as rootRoute } from "./routes/__root";
 import { Route as ProtectedLayoutImport } from "./routes/_protected/layout";
 import { Route as AuthLayoutImport } from "./routes/_auth/layout";
 import { Route as AuthIndexImport } from "./routes/_auth/index";
-import { Route as ProtectedHomeImport } from "./routes/_protected/home";
+import { Route as ProtectedSchedulesImport } from "./routes/_protected/schedules";
+import { Route as ProtectedPlansImport } from "./routes/_protected/plans";
+import { Route as ProtectedOverviewImport } from "./routes/_protected/overview";
 import { Route as AuthRegisterImport } from "./routes/_auth/register";
 
 // Create/Update Routes
@@ -35,9 +37,21 @@ const AuthIndexRoute = AuthIndexImport.update({
   getParentRoute: () => AuthLayoutRoute,
 } as any);
 
-const ProtectedHomeRoute = ProtectedHomeImport.update({
-  id: "/home",
-  path: "/home",
+const ProtectedSchedulesRoute = ProtectedSchedulesImport.update({
+  id: "/schedules",
+  path: "/schedules",
+  getParentRoute: () => ProtectedLayoutRoute,
+} as any);
+
+const ProtectedPlansRoute = ProtectedPlansImport.update({
+  id: "/plans",
+  path: "/plans",
+  getParentRoute: () => ProtectedLayoutRoute,
+} as any);
+
+const ProtectedOverviewRoute = ProtectedOverviewImport.update({
+  id: "/overview",
+  path: "/overview",
   getParentRoute: () => ProtectedLayoutRoute,
 } as any);
 
@@ -72,11 +86,25 @@ declare module "@tanstack/react-router" {
       preLoaderRoute: typeof AuthRegisterImport;
       parentRoute: typeof AuthLayoutImport;
     };
-    "/_protected/home": {
-      id: "/_protected/home";
-      path: "/home";
-      fullPath: "/home";
-      preLoaderRoute: typeof ProtectedHomeImport;
+    "/_protected/overview": {
+      id: "/_protected/overview";
+      path: "/overview";
+      fullPath: "/overview";
+      preLoaderRoute: typeof ProtectedOverviewImport;
+      parentRoute: typeof ProtectedLayoutImport;
+    };
+    "/_protected/plans": {
+      id: "/_protected/plans";
+      path: "/plans";
+      fullPath: "/plans";
+      preLoaderRoute: typeof ProtectedPlansImport;
+      parentRoute: typeof ProtectedLayoutImport;
+    };
+    "/_protected/schedules": {
+      id: "/_protected/schedules";
+      path: "/schedules";
+      fullPath: "/schedules";
+      preLoaderRoute: typeof ProtectedSchedulesImport;
       parentRoute: typeof ProtectedLayoutImport;
     };
     "/_auth/": {
@@ -106,11 +134,15 @@ const AuthLayoutRouteWithChildren = AuthLayoutRoute._addFileChildren(
 );
 
 interface ProtectedLayoutRouteChildren {
-  ProtectedHomeRoute: typeof ProtectedHomeRoute;
+  ProtectedOverviewRoute: typeof ProtectedOverviewRoute;
+  ProtectedPlansRoute: typeof ProtectedPlansRoute;
+  ProtectedSchedulesRoute: typeof ProtectedSchedulesRoute;
 }
 
 const ProtectedLayoutRouteChildren: ProtectedLayoutRouteChildren = {
-  ProtectedHomeRoute: ProtectedHomeRoute,
+  ProtectedOverviewRoute: ProtectedOverviewRoute,
+  ProtectedPlansRoute: ProtectedPlansRoute,
+  ProtectedSchedulesRoute: ProtectedSchedulesRoute,
 };
 
 const ProtectedLayoutRouteWithChildren = ProtectedLayoutRoute._addFileChildren(
@@ -120,14 +152,18 @@ const ProtectedLayoutRouteWithChildren = ProtectedLayoutRoute._addFileChildren(
 export interface FileRoutesByFullPath {
   "": typeof ProtectedLayoutRouteWithChildren;
   "/register": typeof AuthRegisterRoute;
-  "/home": typeof ProtectedHomeRoute;
+  "/overview": typeof ProtectedOverviewRoute;
+  "/plans": typeof ProtectedPlansRoute;
+  "/schedules": typeof ProtectedSchedulesRoute;
   "/": typeof AuthIndexRoute;
 }
 
 export interface FileRoutesByTo {
   "": typeof ProtectedLayoutRouteWithChildren;
   "/register": typeof AuthRegisterRoute;
-  "/home": typeof ProtectedHomeRoute;
+  "/overview": typeof ProtectedOverviewRoute;
+  "/plans": typeof ProtectedPlansRoute;
+  "/schedules": typeof ProtectedSchedulesRoute;
   "/": typeof AuthIndexRoute;
 }
 
@@ -136,21 +172,25 @@ export interface FileRoutesById {
   "/_auth": typeof AuthLayoutRouteWithChildren;
   "/_protected": typeof ProtectedLayoutRouteWithChildren;
   "/_auth/register": typeof AuthRegisterRoute;
-  "/_protected/home": typeof ProtectedHomeRoute;
+  "/_protected/overview": typeof ProtectedOverviewRoute;
+  "/_protected/plans": typeof ProtectedPlansRoute;
+  "/_protected/schedules": typeof ProtectedSchedulesRoute;
   "/_auth/": typeof AuthIndexRoute;
 }
 
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath;
-  fullPaths: "" | "/register" | "/home" | "/";
+  fullPaths: "" | "/register" | "/overview" | "/plans" | "/schedules" | "/";
   fileRoutesByTo: FileRoutesByTo;
-  to: "" | "/register" | "/home" | "/";
+  to: "" | "/register" | "/overview" | "/plans" | "/schedules" | "/";
   id:
     | "__root__"
     | "/_auth"
     | "/_protected"
     | "/_auth/register"
-    | "/_protected/home"
+    | "/_protected/overview"
+    | "/_protected/plans"
+    | "/_protected/schedules"
     | "/_auth/";
   fileRoutesById: FileRoutesById;
 }
@@ -189,15 +229,25 @@ export const routeTree = rootRoute
     "/_protected": {
       "filePath": "_protected/layout.tsx",
       "children": [
-        "/_protected/home"
+        "/_protected/overview",
+        "/_protected/plans",
+        "/_protected/schedules"
       ]
     },
     "/_auth/register": {
       "filePath": "_auth/register.tsx",
       "parent": "/_auth"
     },
-    "/_protected/home": {
-      "filePath": "_protected/home.tsx",
+    "/_protected/overview": {
+      "filePath": "_protected/overview.tsx",
+      "parent": "/_protected"
+    },
+    "/_protected/plans": {
+      "filePath": "_protected/plans.tsx",
+      "parent": "/_protected"
+    },
+    "/_protected/schedules": {
+      "filePath": "_protected/schedules.tsx",
       "parent": "/_protected"
     },
     "/_auth/": {
