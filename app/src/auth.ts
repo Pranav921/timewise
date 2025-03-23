@@ -3,9 +3,13 @@ import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   signOut,
+  User,
 } from "firebase/auth";
 
-export const register = async (email: string, password: string) => {
+export const register = async (
+  email: string,
+  password: string,
+): Promise<User | null> => {
   try {
     const userCredential = await createUserWithEmailAndPassword(
       auth,
@@ -15,11 +19,14 @@ export const register = async (email: string, password: string) => {
     console.log("User signed up:", userCredential.user);
     await loginToBackend();
   } catch (error: any) {
-    console.error("Error signing up:", error.message);
+    return null;
   }
 };
 
-export const logIn = async (email: string, password: string) => {
+export const logIn = async (
+  email: string,
+  password: string,
+): Promise<User | null> => {
   try {
     const userCredential = await signInWithEmailAndPassword(
       auth,
@@ -28,18 +35,16 @@ export const logIn = async (email: string, password: string) => {
     );
     console.log("User signed in:", userCredential.user);
     await loginToBackend();
+    return userCredential.user;
   } catch (error: any) {
-    console.error("Error signing in:", error.message);
+    return null;
   }
 };
 
 export const logOut = async () => {
   try {
     await signOut(auth);
-    console.log("User signed out");
-  } catch (error: any) {
-    console.error("Error signing out:", error.message);
-  }
+  } catch (error: any) {}
 };
 
 export const getFirebaseToken = async (): Promise<string | null> => {

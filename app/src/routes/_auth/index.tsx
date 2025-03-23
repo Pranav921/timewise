@@ -13,13 +13,20 @@ export const Route = createFileRoute("/_auth/")({
 function RouteComponent() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = Route.useNavigate();
+  const { auth } = Route.useRouteContext();
 
   const handleLogIn = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     if (email === "") return;
 
-    await logIn(email, password);
+    const user = await logIn(email, password);
+
+    if (user) {
+      auth.updateAuthPromiseAfterLogin(user);
+      await navigate({ to: "/overview" });
+    }
   };
 
   return (
@@ -49,7 +56,9 @@ function RouteComponent() {
             Forgot password?
           </span>
         </p>
-        <Button type="submit">Log In</Button>
+        <Button className="w-full py-1.5 mt-4" type="submit">
+          Log In
+        </Button>
       </form>
       <p className="text-center my-2">or</p>
       <div className="flex justify-center">
@@ -62,7 +71,7 @@ function RouteComponent() {
       </div>
       <div className="flex justify-center">
         <Link
-          to="/home"
+          to="/overview"
           className="text-center underline hover:cursor-pointer cursor-default"
         >
           Home
