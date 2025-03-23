@@ -4,11 +4,11 @@ export const Route = createFileRoute("/_auth")({
   beforeLoad: async ({ context }) => {
     const auth = await context.auth.promise;
 
-    if (auth.user) {
-      throw redirect({
-        to: "/home",
-      });
-    }
+    // if (auth.user) {
+    //   throw redirect({
+    //     to: "/home",
+    //   });
+    // }
   },
   component: RouteComponent,
 });
