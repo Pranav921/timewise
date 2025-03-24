@@ -14,10 +14,10 @@ export const register = async (
     const userCredential = await createUserWithEmailAndPassword(
       auth,
       email,
-      password
+      password,
     );
-    console.log("User signed up:", userCredential.user);
     await loginToBackend();
+    return Promise.resolve(userCredential.user);
   } catch (error: any) {
     return null;
   }
@@ -31,7 +31,7 @@ export const logIn = async (
     const userCredential = await signInWithEmailAndPassword(
       auth,
       email,
-      password
+      password,
     );
     console.log("User signed in:", userCredential.user);
     await loginToBackend();
