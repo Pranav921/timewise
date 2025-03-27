@@ -1,20 +1,23 @@
-from fastapi import APIRouter, Depends, HTTPException, Header
-from sqlalchemy.orm import Session
-from src.auth.firebase_auth import verify_firebase_token
-from src.database.database import get_db
-from src.database.models import User
+from fastapi import APIRouter, Depends, HTTPException, Header, status
+from src.auth.firebase import verify_firebase_token
+from pydantic import BaseModel
+from src.db.users.users_model import insert_user, User
+
+class AccountInfo(BaseModel):
+    name: str
+    username: str
 
 router = APIRouter()
 
-@router.post("/auth/login")
-async def login(authorization: str = Header(None), db: Session = Depends(get_db)):
+@router.post("/auth/register", status_code=status.HTTP_201_CREATED)
+async def register(account: AccountInfo, authorization: str = Header(None)):
     """
     - Receives Firebase ID token in Authorization header (Bearer token)
     - Verifies token and stores user in PostgreSQL if new
     - Returns user info
     """
     if not authorization or not authorization.startswith("Bearer "):
-        raise HTTPException(status_code=401, detail="Authorization header missing or invalid")
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Authorization header missing or invalid")
 
     token = authorization.split("Bearer ")[1]
 
@@ -23,14 +26,7 @@ async def login(authorization: str = Header(None), db: Session = Depends(get_db)
         uid = decoded_user["uid"]
         email = decoded_user.get("email")
 
-        # Check if user exists in PostgreSQL
-        user = db.query(User).filter(User.uid == uid).first()
-        if not user:
-            new_user = User(uid=uid, email=email)
-            db.add(new_user)
-            db.commit()
-
-        return {"uid": uid, "email": email}
+        await insert_user(User(uid=uid, email=email, name=account.name, username=account.username))
 
     except ValueError:
-        raise HTTPException(status_code=401, detail="Invalid Firebase token")
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid Firebase token")

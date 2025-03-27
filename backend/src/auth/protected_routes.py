@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Depends, HTTPException, Header
-from src.auth.firebase_auth import verify_firebase_token
+from src.auth.firebase import verify_firebase_token
 
 router = APIRouter()
 

@@ -9,6 +9,8 @@ import {
 export const register = async (
   email: string,
   password: string,
+  name: string,
+  username: string,
 ): Promise<User | null> => {
   try {
     const userCredential = await createUserWithEmailAndPassword(
@@ -16,8 +18,10 @@ export const register = async (
       email,
       password,
     );
-    await loginToBackend();
-    return Promise.resolve(userCredential.user);
+
+    await createAccount(name, username);
+
+    return userCredential.user;
   } catch (error: any) {
     return null;
   }
@@ -33,8 +37,7 @@ export const logIn = async (
       email,
       password,
     );
-    console.log("User signed in:", userCredential.user);
-    await loginToBackend();
+
     return userCredential.user;
   } catch (error: any) {
     return null;
@@ -52,25 +55,31 @@ export const getFirebaseToken = async (): Promise<string | null> => {
   return user ? await user.getIdToken() : null;
 };
 
-export const loginToBackend = async () => {
+const createAccount = async (name: string, username: string) => {
   const token = await getFirebaseToken();
+
   if (!token) {
-    console.error("No Firebase token found");
-    return;
+    throw new Error("No Firebase token found");
   }
 
   try {
-    const response = await fetch("http://localhost:8000/api/auth/login", {
+    const response = await fetch("http://127.0.0.1:8000/api/auth/register", {
       method: "POST",
       headers: {
         Authorization: `Bearer ${token}`,
         "Content-Type": "application/json",
       },
+      body: JSON.stringify({
+        name,
+        username,
+      }),
     });
 
-    const data = await response.json();
-    console.log("Backend login success:", data);
+    if (response.status !== 201) {
+      throw new Error("account creation failed");
+    }
   } catch (error) {
-    console.error("Error logging into backend:", error);
+    console.error(error);
+    throw new Error("error creating account");
   }
 };
