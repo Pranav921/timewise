@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 # Run as modules to prevent errors
 from data_templates.course_template import Course
-from web_scrappers.web_scrappers_util import remove_html_entities
+from web_scrapers.web_scrapers_util import remove_html_entities
 
 def get_subjects(catalog_url):
     response = requests.get(catalog_url)
@@ -18,16 +18,16 @@ def get_subjects(catalog_url):
 
         ul = header.find_next_sibling("ul")  # Find the next <ul> after <h2>
         if ul:
-            subjects_dict[f"{letter}_subjects"] = [
+            subjects_dict[f"{letter}"] = [
                 li.text.strip() for li in ul.find_all("li")
             ]
-            links_dict[f"{letter}_links"] = [
+            links_dict[f"{letter}"] = [
                 a["href"] for a in ul.find_all("a")
             ]
 
     return subjects_dict, links_dict
 
-def get_courses(subject_url):
+def get_courses(subject_url, subject):
     response_2 = requests.get(subject_url)
     soup2 = BeautifulSoup(response_2.text, "html.parser")
     courses = []
@@ -66,6 +66,7 @@ def get_courses(subject_url):
                         remove_html_entities(code),
                         remove_html_entities(credits),
                         remove_html_entities(name),
+                        remove_html_entities(subject),
                         remove_html_entities(description),
                         remove_html_entities(prerequisite)
                     )
@@ -78,22 +79,25 @@ def get_courses(subject_url):
     return courses
 
 
-def main():
+def runner():
     base_url = "https://catalog.ufl.edu"
     catalog_url = f"{base_url}/UGRD/courses"
     dicts = get_subjects(catalog_url)
 
+
     subj_dict = dicts[0]
     links_dict = dicts[1]
-
-    for value in links_dict.values():
-        for links in value:
+    all_courses = []
+    for key, value in links_dict.items():
+        for index, links in enumerate(value):
             subject_url = f"{base_url}{links}"
-            courses = get_courses(subject_url)
-            print(links)
-            for course in courses:
-                print(course)
+            print("Subject URL: " + subject_url)
+            subj_courses = get_courses(subject_url, subj_dict[key][index])
+            for subj in subj_courses:
+                all_courses.append(subj)
+
+    return all_courses
 
 
 if __name__ == "__main__":
-    main()
+    runner()

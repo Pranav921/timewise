@@ -88,7 +88,7 @@ def get_certificate_data(dict):
                 credits = re.search(r'\d+', credits_text.lstrip()).group()
         # scrape the admissions criteria (ex: https://catalog.ufl.edu/UGRD/colleges-schools/UGENG/ENG_UCT12/)
         # Add the electives
-        certificate = Certificate(name, credits, description, college_name, prerequisite_courses, "Undergraduate", required_courses, [])
+        certificate = Certificate(name, int(credits), description, college_name, "Work in Progress", "Undergraduate", required_courses, [])
         all_certificates.append(certificate)
         if len(description) > max_val:
             max_val = len(description)
@@ -140,11 +140,11 @@ def get_minor_data(dict):
                 credits_text = li.text.strip()
                 credits = re.search(r'\d+', credits_text.lstrip())
                 if credits:
-                    credits = credits.group()
+                    credits = credits.group().strip()
                 else:
                     credits = -1
         # Add non-eligible majors (ex:https://catalog.ufl.edu/UGRD/colleges-schools/UGENG/CIE_UMN/)
-        minor = Minor(name, credits, description, college_name, prerequisite_courses, "", "Undergraduate", required_courses, [])
+        minor = Minor(name, int(credits), description, college_name, "Work in Progress", "", "Undergraduate", required_courses, [])
         all_minors.append(minor)
     return all_minors
 
@@ -193,7 +193,9 @@ def get_major_data(dict):
                 credits = re.search(r'\d+', credits_text.lstrip())
                 if(credits):
                     credits = credits.group()
-        major = Major(name, credits, description, college_name, prerequisite_courses, "Undergraduate",
+                else:
+                    credits = -1
+        major = Major(name, int(credits), description, college_name, "Work in Progress", "Undergraduate",
                       required_courses, [], "Elective Description Needed")
         all_majors.append(major)
     return all_majors
