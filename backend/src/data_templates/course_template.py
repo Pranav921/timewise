@@ -3,11 +3,12 @@ from data_templates.data_templates_util import list_to_str
 
 
 class Course:
-    def __init__(self, code, credit, name, description="",
+    def __init__(self, code, credit, name, subject, description="",
                  prereq_description="", coreq_description="", attribute=""):
         self.code = self.get_code_format(code)
         self.credit = credit
         self.name = name
+        self.subject = subject
         self.description = description
         self.prereq_description = prereq_description
         self.prereq_codes = self.get_requisite_codes(prereq_description)
@@ -22,6 +23,7 @@ class Course:
                 self.credit == other.credit and
                 self.name == other.name and
                 self.description == other.description and
+                self.subject == other.subject and
                 self.prereq_description == other.prereq_description and
                 self.prereq_codes == other.prereq_codes and
                 self.coreq_description == other.coreq_description and
@@ -52,6 +54,7 @@ class Course:
             f"Credit: {self.credit}\n" +
             f"Name: {self.name}\n" +
             f"Description: {course_desc_message}\n" +
+            f"Subject: {self.subject}\n" +
             f"Prerequisites Description: {prerequisites_desc_message}\n" +
             prereq_codes_message +
             f"Corequisites Description: {corequisites_desc_message}\n" +
