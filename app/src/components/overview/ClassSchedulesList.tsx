@@ -1,63 +1,46 @@
-import { useState } from "react";
-
+import { useMutation } from "@tanstack/react-query";
 import OverviewList from "./OverviewList";
-import { v4 as uuidv4 } from "uuid";
 import { ClassSchedule } from "../../types";
+import {
+  createScheduleMutationOptions,
+  deleteScheduleMutationOptions,
+  editScheduleMutationOptions,
+} from "../../mutationOptions";
 
 type ClassSchedulesListProps = {
   data: ClassSchedule[];
+  selectItem: (id: string) => void;
 };
 
-function ClassSchedulesList({ data }: ClassSchedulesListProps) {
-  const [items, setItems] = useState([
-    {
-      id: uuidv4(),
-      name: "My four year plan",
-      semester: "Spring",
-      year: "2025",
-      dateCreated: "3/17/2025",
+function ClassSchedulesList({ data, selectItem }: ClassSchedulesListProps) {
+  const createScheduleMutation = useMutation({
+    ...createScheduleMutationOptions,
+    onError: (e) => {
+      console.log("ERRRRRORR", e);
     },
-    {
-      id: uuidv4(),
-      name: "My four year plan",
-      semester: "Spring",
-      year: "2025",
-      dateCreated: "3/17/2025",
-    },
-    {
-      id: uuidv4(),
-      name: "My four year plan",
-      semester: "Spring",
-      year: "2025",
-      dateCreated: "3/17/2025",
-    },
-  ]);
+  });
+  const editScheduleMutation = useMutation(editScheduleMutationOptions);
+  const deleteScheduleMutation = useMutation(deleteScheduleMutationOptions);
 
   const createItem = (newItem: ClassSchedule) => {
-    setItems((prev) => [...prev, newItem]);
+    createScheduleMutation.mutate({
+      name: newItem.name,
+      semester: newItem.semester,
+    });
   };
 
   const editItem = (newItem: ClassSchedule) => {
-    setItems((prev) =>
-      prev.map((item) => {
-        if (item.id === newItem.id) {
-          return {
-            ...item,
-            ...newItem,
-          };
-        }
-        return item;
-      }),
-    );
+    editScheduleMutation.mutate(newItem);
   };
 
   const deleteItem = (id: string) => {
-    setItems((prev) => prev.filter((item) => item.id !== id));
+    deleteScheduleMutation.mutate(id);
   };
 
   return (
     <OverviewList
       title="Class Schedules"
+      onClickItem={selectItem}
       createItem={createItem}
       editItem={editItem}
       deleteItem={deleteItem}

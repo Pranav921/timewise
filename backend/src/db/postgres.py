@@ -12,4 +12,31 @@ class Postgres:
     async def disconnect(self):
         await self.pool.close()
 
+    async def create_tables(self):
+        async with database.pool.acquire() as connection:
+            await connection.execute('''
+                CREATE TABLE IF NOT EXISTS users (
+                    uid TEXT PRIMARY KEY NOT NULL,
+                    name TEXT NOT NULL,
+                    email TEXT NOT NULL,
+                    username TEXT NOT NULL
+                );
+
+                CREATE TABLE IF NOT EXISTS plans (
+                    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+                    owner_uid TEXT REFERENCES users(uid),
+                    semester VARCHAR(15) NOT NULL,
+                    name TEXT NOT NULL,
+                    date DATE NOT NULL DEFAULT CURRENT_DATE
+                );
+
+                CREATE TABLE IF NOT EXISTS schedules (
+                    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+                    owner_uid TEXT REFERENCES users(uid),
+                    semester VARCHAR(15) NOT NULL,
+                    name TEXT NOT NULL,
+                    date DATE NOT NULL DEFAULT CURRENT_DATE
+                );
+            ''')
+
 database = Postgres(DATABASE_URL)

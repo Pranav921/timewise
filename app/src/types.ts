@@ -1,6 +1,6 @@
 export interface OverviewInfo {
-  fourYearPlans: FourYearPlan[];
-  classSchedules: ClassSchedule[];
+  plans: FourYearPlan[];
+  schedules: ClassSchedule[];
   university: string;
 }
 
@@ -8,14 +8,12 @@ export interface FourYearPlan {
   id: string;
   name: string;
   semester: string;
-  year: string;
-  dateCreated: string;
+  date?: string;
 }
 
 export interface ClassSchedule {
   id: string;
   name: string;
   semester: string;
-  year: string;
-  dateCreated: string;
+  date?: string;
 }
