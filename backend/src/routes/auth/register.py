@@ -1,16 +1,16 @@
-from fastapi import APIRouter, Depends, HTTPException, Header, status
-from src.auth.firebase import verify_firebase_token
+from fastapi import  HTTPException, Header, status
+from typing import Annotated
 from pydantic import BaseModel
+from src.firebase import verify_firebase_token
 from src.db.users.users_model import insert_user, User
+from src.routes.auth import router
 
 class AccountInfo(BaseModel):
     name: str
     username: str
 
-router = APIRouter()
-
 @router.post("/auth/register", status_code=status.HTTP_201_CREATED)
-async def register(account: AccountInfo, authorization: str = Header(None)):
+async def register(account: AccountInfo, authorization: Annotated[str, Header()]):
     """
     - Receives Firebase ID token in Authorization header (Bearer token)
     - Verifies token and stores user in PostgreSQL if new

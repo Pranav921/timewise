@@ -17,7 +17,7 @@ export const useAuth = () => {
   }
 
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+    const unsubscribe = onAuthStateChanged(auth, async (currentUser) => {
       // these 3 lines are sort of useless? probably will remove them later and just only expose the authPromise
       // setUser(currentUser);
       // setLoading(false);
@@ -25,16 +25,18 @@ export const useAuth = () => {
 
       authPromiseRef.current!.resolve(currentUser);
       dataClient.setLoggedInStatus(!!currentUser);
+      dataClient.setToken(await currentUser?.getIdToken());
     });
     return () => unsubscribe();
   }, []);
 
   // this function is needed so that the authPromise is updated with the newly logged in user.
   // Because the old promise will be already resolved and have a stale value, a new promise with the updated value is needed
-  const updateAuthPromiseAfterLogin = (user: User) => {
+  const updateAuthPromiseAfterLogin = async (user: User) => {
     authPromiseRef.current = Promise.withResolvers<User | null>();
     authPromiseRef.current.resolve(user);
     dataClient.setLoggedInStatus(true);
+    dataClient.setToken(await user.getIdToken());
   };
 
   return {

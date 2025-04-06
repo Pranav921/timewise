@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { createFileRoute, useRouter } from "@tanstack/react-router";
 import {
   useSuspenseQuery,
@@ -8,10 +8,18 @@ import FourYearPlansList from "../../components/overview/FourYearPlansList";
 import ClassSchedulesList from "../../components/overview/ClassSchedulesList";
 import Calendar from "../../components/overview/Calendar";
 import { overviewInfoQueryOptions } from "../../queryOptions";
+import TimewiseModal from "../../components/Modal";
+import FourYearPlanDetails from "../../components/FourYearPlanDetails";
+import ScheduleDetails from "../../components/ScheduleDetails";
 
 export const Route = createFileRoute("/_protected/overview")({
-  loader: ({ context }) =>
-    context.queryClient.ensureQueryData(overviewInfoQueryOptions),
+  loader: async ({ context }) => {
+    const user = await context.auth.authPromise.current!.promise;
+
+    if (user) {
+      context.queryClient.ensureQueryData(overviewInfoQueryOptions);
+    }
+  },
   component: RouteComponent,
   pendingComponent: () => <p>Loading...</p>,
   errorComponent: OverviewError,
@@ -51,26 +59,45 @@ function OverviewHeader() {
 }
 
 function OverviewItemsContainer() {
+  const [planSelected, setPlanSelected] = useState<string | null>(null); // the id of the selected plan
+  const [scheduleSelected, setScheduleSelected] = useState<string | null>(null);
   // i don't know if this is good practice or not
   const { data } = useSuspenseQuery({
     ...overviewInfoQueryOptions,
     select: (data) => ({
-      fourYearPlans: data.fourYearPlans,
-      classSchedules: data.classSchedules,
+      plans: data.plans,
+      schedules: data.schedules,
     }),
   });
 
   return (
     <div className="flex mt-6 justify-between gap-5 w-full">
       <OverviewItem>
-        <FourYearPlansList data={data.fourYearPlans} />
+        <FourYearPlansList
+          data={data.plans}
+          selectItem={(id) => setPlanSelected(id)}
+        />
       </OverviewItem>
       <OverviewItem>
-        <ClassSchedulesList data={data.classSchedules} />
+        <ClassSchedulesList
+          data={data.schedules}
+          selectItem={(id) => setScheduleSelected(id)}
+        />
       </OverviewItem>
       <OverviewItem>
         <Calendar />
       </OverviewItem>
+
+      <TimewiseModal
+        isOpen={!!planSelected || !!scheduleSelected}
+        onRequestClose={() => {
+          setPlanSelected(null);
+          setScheduleSelected(null);
+        }}
+      >
+        {!!planSelected && <FourYearPlanDetails id={planSelected} />}
+        {!!scheduleSelected && <ScheduleDetails id={scheduleSelected} />}
+      </TimewiseModal>
     </div>
   );
 }
@@ -87,7 +114,7 @@ function OverviewItem({ children }: OverviewItemProps) {
   );
 }
 
-function OverviewError({ error, reset }: { error: Error; reset: () => void }) {
+function OverviewError({ error }: { error: Error; reset: () => void }) {
   const router = useRouter();
   const queryErrorResetBoundary = useQueryErrorResetBoundary();
 

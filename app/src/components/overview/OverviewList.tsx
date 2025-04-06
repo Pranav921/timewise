@@ -12,6 +12,7 @@ type OverviewListProps = {
   children?: React.ReactNode;
   data: Item[];
 
+  onClickItem: (id: string) => void;
   createItem: (item: Item) => void;
   editItem: (updatedItem: Item) => void;
   deleteItem: (id: string) => void;
@@ -20,6 +21,7 @@ type OverviewListProps = {
 function OverviewList({
   title,
   data,
+  onClickItem,
   createItem,
   editItem,
   deleteItem,
@@ -63,6 +65,7 @@ function OverviewList({
               <OverviewListItem
                 key={item.id}
                 item={item}
+                onClickItem={onClickItem}
                 isDeleting={itemBeingDeleted === item.id}
                 onEditItem={(item: Item) => setItemBeingEdited(item)}
                 onDeleteItem={(id: string) => setItemBeingDeleted(id)}
@@ -89,6 +92,8 @@ function OverviewList({
 type OverviewListItemProps = {
   item: Item;
   isDeleting: boolean;
+
+  onClickItem: (id: string) => void;
   onEditItem: (item: Item) => void;
   onDeleteItem: (id: string) => void;
   deleteItem: (id: string) => void;
@@ -98,6 +103,7 @@ type OverviewListItemProps = {
 function OverviewListItem({
   item,
   isDeleting,
+  onClickItem,
   onEditItem,
   onDeleteItem,
   deleteItem,
@@ -109,13 +115,19 @@ function OverviewListItem({
         <div className="delete-confirmation-actions">
           <span
             className="mr-2 rounded-md p-1.5 hover:bg-gray-200"
-            onClick={cancelDelete}
+            onClick={(e) => {
+              e.stopPropagation();
+              cancelDelete();
+            }}
           >
             ❌
           </span>
           <span
             className="rounded-md p-1.5 hover:bg-gray-200"
-            onClick={() => deleteItem(item.id)}
+            onClick={(e) => {
+              e.stopPropagation();
+              deleteItem(item.id);
+            }}
           >
             ✅
           </span>
@@ -136,7 +148,10 @@ function OverviewListItem({
         </span>
         <span
           className="rounded-md p-1.5 hover:bg-red-100"
-          onClick={() => onDeleteItem(item.id)}
+          onClick={(e) => {
+            e.stopPropagation();
+            onDeleteItem(item.id);
+          }}
         >
           🗑️
         </span>
@@ -150,11 +165,12 @@ function OverviewListItem({
         if (isDeleting) cancelDelete();
       }}
       className="group flex p-2 justify-between items-center w-full hover:bg-gray-100 hover:cursor-pointer"
+      onClick={() => onClickItem(item.id)}
     >
       <div className="flex flex-col w-3/4">
         <p className="truncate">{item.name}</p>
         <p className="text-sm text-gray-500">
-          {item.semester} {item.year} | {item.dateCreated}
+          {item.semester} | {item.date}
         </p>
       </div>
       <div className="invisible group-hover:visible select-none">
@@ -171,7 +187,7 @@ type NewItemProps = {
 
 function NewItem({ createItem: innerCreateItem, cancelCreate }: NewItemProps) {
   const itemNameRef = useRef<string>("Untitled");
-  const semesterRef = useRef<string>("Fall");
+  const semesterRef = useRef<string>("0");
   const yearRef = useRef<string>("2025");
   const newItemContainerRef = useRef<HTMLDivElement | null>(null);
 
@@ -200,9 +216,7 @@ function NewItem({ createItem: innerCreateItem, cancelCreate }: NewItemProps) {
     innerCreateItem({
       id: uuidv4(),
       name,
-      semester: semesterRef.current,
-      year: yearRef.current,
-      dateCreated: "3/17/2025",
+      semester: semesterRef.current + yearRef.current,
     });
   };
 
@@ -243,9 +257,9 @@ function NewItem({ createItem: innerCreateItem, cancelCreate }: NewItemProps) {
         </div>
         <div>
           <Select onChange={onSemesterChange}>
-            <option value="Fall">Fall</option>
-            <option value="Spring">Spring</option>
-            <option value="Summer">Summer</option>
+            <option value="0">Fall</option>
+            <option value="1">Spring</option>
+            <option value="2">Summer</option>
           </Select>
         </div>
         <div>
@@ -275,14 +289,24 @@ type EditItemProps = {
   cancelEdit: () => void;
 };
 
+const semesterMap = {
+  Fall: "0",
+  Spring: "1",
+  Summer: "2",
+};
+
 function EditItem({
   item,
   editItem: innerEditItem,
   cancelEdit,
 }: EditItemProps) {
+  const [semester, year] = item.semester.split(" ");
+  console.log(semester, year);
   const itemNameRef = useRef<string>(item.name);
-  const semesterRef = useRef<string>(item.semester);
-  const yearRef = useRef<string>(item.year);
+  const semesterRef = useRef<string>(
+    semesterMap[semester as keyof typeof semesterMap],
+  );
+  const yearRef = useRef<string>(year);
   const editItemContainerRef = useRef<HTMLDivElement | null>(null);
 
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -308,10 +332,9 @@ function EditItem({
     const name = itemNameRef.current === "" ? "Untitled" : itemNameRef.current;
 
     innerEditItem({
-      ...item,
+      id: item.id,
       name,
-      semester: semesterRef.current,
-      year: yearRef.current,
+      semester: semesterRef.current + yearRef.current,
     });
   };
 
@@ -352,14 +375,17 @@ function EditItem({
           />
         </div>
         <div>
-          <Select onChange={onSemesterChange} defaultValue={item.semester}>
-            <option value="Fall">Fall</option>
-            <option value="Spring">Spring</option>
-            <option value="Summer">Summer</option>
+          <Select
+            onChange={onSemesterChange}
+            defaultValue={semesterMap[semester as keyof typeof semesterMap]}
+          >
+            <option value="0">Fall</option>
+            <option value="1">Spring</option>
+            <option value="2">Summer</option>
           </Select>
         </div>
         <div>
-          <Select onChange={onYearChange} defaultValue={item.year}>
+          <Select onChange={onYearChange} defaultValue={year}>
             <option value="2025">2025</option>
             <option value="2026">2026</option>
             <option value="2027">2027</option>

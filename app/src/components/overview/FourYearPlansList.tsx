@@ -1,8 +1,11 @@
-import { useState } from "react";
-
+import { useMutation } from "@tanstack/react-query";
 import OverviewList from "./OverviewList";
-import { v4 as uuidv4 } from "uuid";
 import { FourYearPlan } from "../../types";
+import {
+  createPlanMutationOptions,
+  deletePlanMutationOptions,
+  editPlanMutationOptions,
+} from "../../mutationOptions";
 
 // TODO:
 // create fetching client, ensure that it is flexible to handle guest mode + logged in
@@ -11,58 +14,38 @@ import { FourYearPlan } from "../../types";
 
 type FourYearPlansListProps = {
   data: FourYearPlan[];
+  selectItem: (id: string) => void;
 };
 
-function FourYearPlansList({ data }: FourYearPlansListProps) {
-  const [items, setItems] = useState([
-    {
-      id: uuidv4(),
-      name: "My four year plan",
-      semester: "Spring",
-      year: "2025",
-      dateCreated: "3/17/2025",
+function FourYearPlansList({ data, selectItem }: FourYearPlansListProps) {
+  const createPlanMutation = useMutation({
+    ...createPlanMutationOptions,
+    onError: (e) => {
+      console.log("ERRRRRORR", e);
     },
-    {
-      id: uuidv4(),
-      name: "My four year plan",
-      semester: "Spring",
-      year: "2025",
-      dateCreated: "3/17/2025",
-    },
-    {
-      id: uuidv4(),
-      name: "My four year plan",
-      semester: "Spring",
-      year: "2025",
-      dateCreated: "3/17/2025",
-    },
-  ]);
+  });
+  const editPlanMutation = useMutation(editPlanMutationOptions);
+  const deletePlanMutation = useMutation(deletePlanMutationOptions);
 
-  const createItem = (newItem: FourYearPlan) => {
-    setItems((prev) => [...prev, newItem]);
+  const createItem = async (newItem: FourYearPlan) => {
+    createPlanMutation.mutate({
+      name: newItem.name,
+      semester: newItem.semester,
+    });
   };
 
   const editItem = (newItem: FourYearPlan) => {
-    setItems((prev) =>
-      prev.map((item) => {
-        if (item.id === newItem.id) {
-          return {
-            ...item,
-            ...newItem,
-          };
-        }
-        return item;
-      }),
-    );
+    editPlanMutation.mutate(newItem);
   };
 
   const deleteItem = (id: string) => {
-    setItems((prev) => prev.filter((item) => item.id !== id));
+    deletePlanMutation.mutate(id);
   };
 
   return (
     <OverviewList
       title="4-Year Plans"
+      onClickItem={selectItem}
       createItem={createItem}
       editItem={editItem}
       deleteItem={deleteItem}
@@ -70,4 +53,5 @@ function FourYearPlansList({ data }: FourYearPlansListProps) {
     />
   );
 }
+
 export default FourYearPlansList;
