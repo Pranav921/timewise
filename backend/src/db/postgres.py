@@ -37,6 +37,12 @@ class Postgres:
                     name TEXT NOT NULL,
                     date DATE NOT NULL DEFAULT CURRENT_DATE
                 );
+                
+                CREATE TABLE IF NOT EXISTS friendships (
+                    user_id TEXT NOT NULL REFERENCES users(uid),
+                    friend_id TEXT NOT NULL REFERENCES users(uid),
+                    PRIMARY KEY (user_id, friend_id)
+                );
             ''')
 
 database = Postgres(DATABASE_URL)

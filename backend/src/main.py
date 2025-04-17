@@ -6,6 +6,8 @@ from src.routes.auth.register import router as auth_router
 from src.routes.plans import router as plans_router
 from src.routes.overview import router as overview_router 
 from src.routes.schedules import router as schedules_router
+from src.routes import friends_routes
+
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -32,6 +34,7 @@ app.include_router(auth_router, prefix="/api")
 app.include_router(plans_router, prefix="/api")
 app.include_router(schedules_router, prefix="/api")
 app.include_router(overview_router, prefix="/api")
+app.include_router(friends_routes.router, prefix="/api")
 
 @app.get("/")
 async def root():
