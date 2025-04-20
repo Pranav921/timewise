@@ -1,0 +1,84 @@
+{
+    "Semester 1": [
+        "DAA 2104 (CT)",
+        "DAA 2204 (CT)",
+        "DAA 2341 (CT)",
+        "DAA 2680 (CT)",
+        "DAA 2710",
+        "DAN 2930 (CT)",
+        "TPA 1012",
+        "State Core Gen Ed Biological or Physical Sciences (3 credits)"
+    ],
+    "Semester 2": [
+        "Quest 1 (3 credits)",
+        "DAA 2104 (CT)",
+        "DAA 2204 (CT)",
+        "DAA 2341 (CT)",
+        "DAA 2621 (CT)",
+        "DAA 2680 (CT)",
+        "DAA 2711",
+        "State Core Gen Ed Composition; Writing Requirement (3 credits)"
+    ],
+    "Semester 3": [
+        "DAA 2105 (CT)",
+        "DAA 2205 (CT)",
+        "DAA 2342 (CT)",
+        "DAN 2422",
+        "DAN 2390",
+        "DAN 2701",
+        "State Core Gen Ed Mathematics (3 credits)"
+    ],
+    "Semester 4": [
+        "Quest 2 (Gen Ed Biological, Physical Science, or Social and Behavioral Sciences) (3 credits)",
+        "DAA 2105 (CT)",
+        "DAA 2205 (CT)",
+        "DAA 2342 (CT)",
+        "DAA 2610",
+        "DAN 3614"
+    ],
+    "Semester 5": [
+        "Select two: (4 credits)",
+        "DAA 3108",
+        "DAA 3208",
+        "DAA 3343",
+        "DAA 2611",
+        "DAN 4434 (CT)",
+        "THE 2000"
+    ],
+    "Semester 6": [
+        "Select two: (4 credits)",
+        "DAA 3108 (CT)",
+        "DAA 3208",
+        "DAA 3343",
+        "DAA 3614",
+        "DAN 4124",
+        "THE 4950",
+        "State Core Gen Ed Composition (3 credits)",
+        "State Core Gen Ed Social and Behavioral Sciences (3 credits)"
+    ],
+    "Semester 7": [
+        "DAA 4920"
+    ],
+    "Semester 8": [
+        "Select two: (4 credits)",
+        "DAA 4110 (CT)",
+        "DAA 4210 (CT)",
+        "DAA 4344",
+        "DAA 4685",
+        "DAE 4300",
+        "DAN 4959 (CT)",
+        "State Core Gen Ed Mathematics (3 credits)",
+        "Electives (Writing Requirement) (3 credits)"
+    ],
+    "Semester 9": [
+        "Select two: (4 credits)",
+        "DAA 4110 (CT)",
+        "DAA 4210",
+        "DAA 4344",
+        "DAA 4685",
+        "DAN 4180 (CT)",
+        "DAN 4959 (CT)",
+        "Gen Ed Biological or Physical Sciences OR Gen Ed Social and Behavioral Sciences1 (3 credits)",
+        "Electives (2 credits)"
+    ]
+}

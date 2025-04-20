@@ -1,0 +1,36 @@
+{
+    "Semester 1": [
+        "ENC 1101",
+        "CHM 1025",
+        "EGS 1006",
+        "MAC 1147",
+        "Gen Ed Humanities",
+        "Gen Ed Social and Behavioral Sciences"
+    ],
+    "Semester 2": [
+        "Select one: CHM 2045 OR CHM 2095 (CT)",
+        "CHM 2045L",
+        "IDS 1161",
+        "MAC 2311 (CT)",
+        "Gen Ed Social and Behavioral Sciences"
+    ],
+    "Semester 3": [
+        "Select one: CHM 2046 OR CHM 2096 (CT)",
+        "CHM 2046L",
+        "ENC 3246",
+        "MAC 2312 (CT)",
+        "Select one: Gen Ed Humanities OR Gen Ed Social and Behavioral Sciences"
+    ],
+    "Semester 4": [
+        "MAC 2313 (CT)",
+        "PHY 2048 (CT)",
+        "PHY 2048L",
+        "Major-specific courses (6 credits)"
+    ],
+    "Semester 5": [
+        "MAP 2302 (CT)",
+        "PHY 2049 (CT)",
+        "PHY 2049L",
+        "Major-specific courses (6 credits)"
+    ]
+}

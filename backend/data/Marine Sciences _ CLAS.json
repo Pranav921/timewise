@@ -1,0 +1,51 @@
+{
+    "Semester 1": [
+        "CHM 2045 & 2045L (CT)",
+        "Select one: MAC 2311 (CT) OR MAC 1147",
+        "OCE 1001 (CT)",
+        "Quest 1 (Gen Ed Humanities) (3 credits)"
+    ],
+    "Semester 2": [
+        "CHM 2046 & 2046L (CT)",
+        "Select one: Elective OR MAC 2311",
+        "State Core Gen Ed Composition; Writing Requirement (3 credits)",
+        "State Core Gen Ed Humanities (3 credits)",
+        "State Core Gen Ed Social and Behavioral Sciences (3 credits)"
+    ],
+    "Semester 3": [
+        "BSC 2010 & 2010L (CT)",
+        "GLY 3083C",
+        "Select one: MAC 2312 OR STA 2023",
+        "Elective (3000 level or above, not in major) (3 credits)",
+        "Gen Ed Humanities (3 credits)"
+    ],
+    "Semester 4": [
+        "Quest 2 (Gen Ed Social and Behavioral Sciences) (3 credits)",
+        "BSC 2011 & 2011L (CT)",
+        "Select one: PHY 2053 & 2053L OR PHY 2048 & 2048L (CT)",
+        "Elective (3000 level or above, not in major) (3 credits)"
+    ],
+    "Semester 5": [
+        "Select one: PHY 2054 & 2054L OR PHY 2049 & 2049L (CT)",
+        "ZOO 4403C",
+        "Foreign language (5 credits)",
+        "Elective (3 credits)"
+    ],
+    "Semester 6": [
+        "GLY 4726",
+        "PCB 4460orFAS 4270 (CT)",
+        "Gen Ed Composition; Writing Requirement (3 credits)",
+        "Foreign language (5 credits)"
+    ],
+    "Semester 7": [
+        "Marine sciences core elective",
+        "Gen Ed Social and Behavioral Sciences;Critical Tracking (CT) (3 credits)",
+        "Approved elective (3 credits)",
+        "Electives (3000 level or above, not in major) (6 credits)"
+    ],
+    "Semester 8": [
+        "Approved electives (9 credits)",
+        "Elective (3000 level or above, not in major) (3 credits)",
+        "Elective (3 credits)"
+    ]
+}

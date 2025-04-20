@@ -1,0 +1,58 @@
+{
+    "Semester 1": [
+        "CHM 2045 & 2045L (CT)",
+        "MAC 2311 (CT)",
+        "State Core Gen Ed Composition; Writing Requirement (3 credits)",
+        "State Core Gen Ed Humanities (3 credits)",
+        "Elective (3 credits)"
+    ],
+    "Semester 2": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "Select one: AEB 2014 OR AEB 3103",
+        "ECO 2013",
+        "ECO 2023",
+        "CHM 2046 & 2046L (CT)",
+        "Electives (5 credits)"
+    ],
+    "Semester 3": [
+        "BSC 2010 & 2010L (CT)",
+        "CHM 2210",
+        "STA 2023",
+        "State Core Gen Ed Social and Behavioral Sciences (3 credits)",
+        "Gen Ed Composition (3 credits)"
+    ],
+    "Semester 4": [
+        "Quest 2 (3 credits)",
+        "BSC 2011 & 2011L (CT)",
+        "CHM 2211 & 2211L",
+        "HUN 2201"
+    ],
+    "Semester 5": [
+        "AEC 3030C",
+        "BCH 3025orBCH 4024 (CT)",
+        "FOS 3042",
+        "PHY 2053 & 2053L"
+    ],
+    "Semester 6": [
+        "HUN 3403 (CT)",
+        "Select one: PCB 3063 OR AGR 3303",
+        "MCB 4304",
+        "PCB 4522",
+        "PHY 2054 & 2054L",
+        "Electives (5 credits)"
+    ],
+    "Semester 7": [
+        "HUN 4445 (CT)",
+        "PCB 4723CorAPK 2105C",
+        "Approved science course",
+        "Approved science laboratory",
+        "Select 4 elective credits (4 credits)"
+    ],
+    "Semester 8": [
+        "AEC 3033C",
+        "HUN 4221 (CT)",
+        "HUN 4446",
+        "MCB 3020 & 3020L",
+        "Elective (3 credits)"
+    ]
+}

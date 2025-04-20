@@ -1,0 +1,52 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "ECO 2023 (CT)",
+        "MAC 1140",
+        "State Core Gen Ed Biological or Physical Sciences (3 credits)"
+    ],
+    "Semester 2": [
+        "Quest 2 (Gen Ed Biological or Physical Sciences) (3 credits)",
+        "ECO 2013 (CT)",
+        "MAC 2233 (CT)",
+        "State Core Gen Ed Composition (3 credits)",
+        "State Core Gen Ed Humanities (3 credits)"
+    ],
+    "Semester 3": [
+        "ACG 2021 (CT)",
+        "Select one: CGS 2531 OR ISM 3013 (CT)",
+        "Gen Ed Diversity (3 credits)",
+        "Gen Ed International (4 credits)"
+    ],
+    "Semester 4": [
+        "ACG 2071 (CT)",
+        "STA 2023 (CT)",
+        "Gen Ed Physical Sciences (3 credits)",
+        "Electives (7 credits)"
+    ],
+    "Semester 5": [
+        "GEB 3035",
+        "MAN 3025",
+        "QMB 3250",
+        "QMB 3302"
+    ],
+    "Semester 6": [
+        "FIN 3403",
+        "GEB 3017",
+        "MAR 3023"
+    ],
+    "Semester 7": [
+        "BUL 4310",
+        "GEB 3219",
+        "GEB 3373",
+        "ISM 3004"
+    ],
+    "Semester 8": [
+        "MAN 4504",
+        "MAN 4723",
+        "Select two: (8 credits)",
+        "ENT 3003",
+        "MAR 3231",
+        "REE 3043"
+    ]
+}

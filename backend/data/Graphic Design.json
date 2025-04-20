@@ -1,0 +1,55 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "GRA 1113C (CT)",
+        "GRA 2111C (CT)",
+        "Gen Ed Composition (3 credits)",
+        "Elective (3 credits)"
+    ],
+    "Semester 2": [
+        "ART 1803C (CT)",
+        "GRA 1831C (CT)",
+        "AnyARH 2000-level survey course exceptARH 2000(Critical Tracking;Gen Ed Humanities) (CT)",
+        "Elective (3 credits)"
+    ],
+    "Semester 3": [
+        "GRA 2208C (CT)",
+        "Any 2000-level ARH survey course exceptARH 2000(Critical Tracking) (CT)",
+        "State Core Gen Ed Mathematics (3 credits)",
+        "Major electives (Critical Tracking; Any 2000-level course with a GRA / ARH / ART / ARE / PGY / DIG prefix) (CT) (9 credits)"
+    ],
+    "Semester 4": [
+        "Quest 2 (Gen Ed Physical or Biological Sciences) (3 credits)",
+        "Gen Ed Mathematics; pure math (3 credits)",
+        "Major electives (Critical Tracking; Any 2000-level course with a GRA / ARH / ART / ARE / PGY / DIG prefix) (CT) (9 credits)"
+    ],
+    "Semester 5": [
+        "Before beginning 3/4000 studio coursework, students must successfully submit and pass the sophomore portfolio review.",
+        "ENC 3254 (CT)",
+        "GRA 3193C (CT)",
+        "GRA 3209C (CT)",
+        "GRA 4165",
+        "Elective (3000/4000 level) (3 credits)"
+    ],
+    "Semester 6": [
+        "GRA 3194C (CT)",
+        "GRA 3198C (CT)",
+        "GRA 4166",
+        "GRA 4923C",
+        "State Core Gen Ed Biological or Physical Sciences (3 credits)"
+    ],
+    "Semester 7": [
+        "GRA 4196C (CT)",
+        "GRA 4197C (CT)",
+        "State Core Gen Ed Social and Behavioral Sciences (3 credits)",
+        "Gen Ed Social and Behavioral Sciences (3 credits)",
+        "Elective (3000/4000 level) (3 credits)"
+    ],
+    "Semester 8": [
+        "GRA 4186C (CT)",
+        "GRA 4187C (CT)",
+        "State Core Gen Ed Humanities (3 credits)",
+        "Any Gen Ed Humanities, Social and Behavioral Science, Physical Science, or Biological Science course (3 credits)",
+        "Elective (3000/4000 level) (3 credits)"
+    ]
+}

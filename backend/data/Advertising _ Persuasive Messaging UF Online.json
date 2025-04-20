@@ -1,0 +1,56 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "AMH 2020",
+        "ENC 1101",
+        "SPC 2608orORI 2000 (CT)",
+        "State Core Gen Ed Mathematics2 (3 credits)"
+    ],
+    "Semester 2": [
+        "ENC 1102 (CT)",
+        "MMC 1009 (CT)",
+        "Select one: POS 2041 OR PSY 2012 (CT)",
+        "STA 2023 (CT)",
+        "THE 2000orARH 2000",
+        "State Core Gen Ed Biological or Physical Sciences (3 credits)"
+    ],
+    "Semester 3": [
+        "Quest 2 (Gen Ed Biological or Physical Sciences) (3 credits)",
+        "ECO 2013 (CT)",
+        "MMC 2121",
+        "MUL 2010",
+        "Foreign language or quantitative option courses1 (3 credits)"
+    ],
+    "Semester 4": [
+        "ADV 3008 (CT)",
+        "ENC 3252 (CT)",
+        "MAR 3023 (CT)",
+        "Foreign language or quantitative option courses1 (3 credits)"
+    ],
+    "Semester 5": [
+        "ADV 3001 (CT)",
+        "ADV 3411 (CT)",
+        "ADV 3500 (CT)",
+        "VIC 3001 (CT)",
+        "Elective outside the college (3 credits)"
+    ],
+    "Semester 6": [
+        "ADV 3403 (CT)",
+        "MMC 3420 (CT)",
+        "ADV Experiential Learning Course 1 (Critical Tracking)1 (CT) (3 credits)",
+        "Professional elective (3 credits)",
+        "Elective outside college (3 credits)"
+    ],
+    "Semester 7": [
+        "MMC 3203 (CT)",
+        "MMC 4200 (CT)",
+        "Professional electives (6 credits)",
+        "Elective outside college (3 credits)"
+    ],
+    "Semester 8": [
+        "ADV Experiential Learning Course 2  (Critical Tracking)1 (CT) (3 credits)",
+        "Professional electives1 (6 credits)",
+        "Writing elective outside college, 6000 words (Critical Tracking) (CT)",
+        "Elective outside college (3 credits)"
+    ]
+}

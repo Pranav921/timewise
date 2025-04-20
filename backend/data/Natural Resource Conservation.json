@@ -1,0 +1,67 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "Select one: CHM 1030 OR CHM 2045 (CT)",
+        "FOR 2662",
+        "State Core Gen Ed Composition; Writing Requirement (3 credits)",
+        "Elective (2 credits)"
+    ],
+    "Semester 2": [
+        "MAC 1105 (CT)",
+        "BSC 2010 & 2010L (CT)",
+        "FAS 2024",
+        "State Core Gen Ed Social and Behavioral Sciences (3 credits)",
+        "Elective (2 credits)"
+    ],
+    "Semester 3": [
+        "AEC 3033C (CT)",
+        "STA 2023 (CT)",
+        "FOR 3004",
+        "Gen Ed Composition (3 credits)",
+        "Elective (2 credits)"
+    ],
+    "Semester 4": [
+        "Quest 2 (Gen Ed Physical Sciences) (3 credits)",
+        "Select one: AEB 2014 OR ECO 2013 (CT)",
+        "ECO 2023 (CT)",
+        "Select one: AEC 3030C OR SPC 2608 (CT)",
+        "State Core Gen Ed Humanities (3 credits)",
+        "Elective3 (3 credits)"
+    ],
+    "Semester 5": [
+        "Summer B",
+        "Select one: FOR 3200C (CT) OR FOR 4934",
+        "Approved courses"
+    ],
+    "Semester 6": [
+        "Select one: FAS 4202C OR FNR 3131C (CT)",
+        "WIS 3402 & 3402L (CT)",
+        "Select one: FAS 4932 OR FNR 3410C (CT)",
+        "WIS 4601C",
+        "WIS 4945",
+        "Select one: FAS 4270 OR FAS 4932",
+        "FOR 3153C (CT)",
+        "WIS 3404 (CT)",
+        "WIS 4443C",
+        "FOR 3434CorGIS 3072C"
+    ],
+    "Semester 7": [
+        "Select one: FOR 3202 (CT) OR FOR 4060",
+        "FOR 4934",
+        "Approved courses"
+    ],
+    "Semester 8": [
+        "Select one: FAS 4305C OR FAS 4932",
+        "FNR 4070C",
+        "FNR 4624C (CT)",
+        "FOR 3214 & 3214L",
+        "FOR 4664",
+        "WIS 4427C",
+        "FNR 4660orFOR 4621 (CT)",
+        "Approved courses"
+    ],
+    "Semester 9": [
+        "FNR 4950L",
+        "Approved courses"
+    ]
+}

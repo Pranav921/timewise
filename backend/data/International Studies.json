@@ -1,0 +1,68 @@
+{
+    "Semester 1": [
+        "Beginning foreign language course (Critical Tracking) (CT)",
+        "International studies course (Critical Tracking; Category A, 2000 level or above); recommended: (CT) (3 credits)",
+        "State Core Gen Ed Biological or Physical Sciences (3 credits)",
+        "State Core Gen Ed Composition; Writing Requirement (3 credits)",
+        "Africa",
+        "AFS 2002",
+        "HUM 2424",
+        "Asia:",
+        "REL 2362",
+        "Europe",
+        "EUS 2001",
+        "EUS 2003",
+        "Latin America and the Caribbean:",
+        "LAS 2001",
+        "Middle East",
+        "REL 2362",
+        "Science laboratory (Gen Ed Physical or Biological Sciences) (1 credits)"
+    ],
+    "Semester 2": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "Beginning foreign language course (Critical Tracking) (CT)",
+        "International studies course (Critical Tracking; Category B, 2000 level or higher) (CT) (3 credits)",
+        "Gen Ed Biological or Physical Sciences (areanottaken in semester one) (3 credits)",
+        "Gen Ed Composition; Writing Requirement (3 credits)"
+    ],
+    "Semester 3": [
+        "Intermediate foreign language course",
+        "International studies course (Critical Tracking; Category B, 2000 level or higher) (CT) (3 credits)",
+        "State Core Gen Ed Humanities (3 credits)",
+        "State Core Gen Ed Mathematics (3 credits)",
+        "Gen Ed Biological or Physical Sciences (area not taken in semester two)1 (3 credits)"
+    ],
+    "Semester 4": [
+        "INS 3004 (CT)",
+        "Intermediate foreign language course",
+        "State Core Gen Ed Social and Behavioral Sciences (3 credits)",
+        "Gen Ed Biological or Physical Sciences (area not taken in semester three)1 (3 credits)",
+        "Select one: Gen Ed Humanities (if needed) OR Elective"
+    ],
+    "Semester 5": [
+        "International studies course (Critical Tracking; Category A, 3000 level or above) (CT) (3 credits)",
+        "International studies course (Critical Tracking; Category B, 3000 level or above) (CT) (3 credits)",
+        "Select one: Gen Ed Social and Behavioral Sciences (if needed) OR Elective",
+        "Gen Ed Mathematics (3 credits)",
+        "Elective"
+    ],
+    "Semester 6": [
+        "International studies course (Critical Tracking; Category A, 3000 level or above) (CT) (3 credits)",
+        "International studies course (Critical Tracking; Category B, 3000 level or above) (CT) (3 credits)",
+        "Elective (3000 level or above, not in major, if needed)2 (3 credits)",
+        "Select one: Study abroad OR Internship",
+        "Electives (8 credits)"
+    ],
+    "Semester 7": [
+        "International studies course (Critical Tracking; Category A, 3000 level or above) (CT) (3 credits)",
+        "International studies course (Critical Tracking; Category B, 3000 level or above) (CT) (3 credits)",
+        "Electives (3000 level or above, not in major, if needed)2 (6 credits)",
+        "Elective"
+    ],
+    "Semester 8": [
+        "INS 4930 (CT)",
+        "Select one: International studies course (Critical Tracking; Category A, 3000 level or higher) (CT) OR Gen Ed Social and Behavioral Sciences (if needed)",
+        "Elective",
+        "Electives (8 credits)"
+    ]
+}

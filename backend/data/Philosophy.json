@@ -1,0 +1,50 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "State Core Gen Ed Composition; Writing Requirement (3 credits)",
+        "Foreign language",
+        "Electives (9 credits)"
+    ],
+    "Semester 2": [
+        "State Core Gen Ed Biological or Physical Sciences (3 credits)",
+        "State Core Gen Ed Social and Behavioral Sciences (3 credits)",
+        "Gen Ed Composition; Writing Requirement (3 credits)",
+        "Philosophy elective (Critical Tracking; 2000 level; Gen Ed Humanities) (CT) (3 credits)",
+        "Foreign language"
+    ],
+    "Semester 3": [
+        "State Core Gen Ed Mathematics, pure math (3 credits)",
+        "Gen Ed Biological or Physical Sciences (areanottaken in semester two)1 (3 credits)",
+        "Gen Ed Social and Behavioral Sciences1 (3 credits)",
+        "Required philosophy course (Critical Tracking) (CT) (3 credits)",
+        "Elective, or foreign language, if 4-3-3 option (3 credits)"
+    ],
+    "Semester 4": [
+        "Required philosophy course (Critical Tracking) (CT) (3 credits)",
+        "Gen Ed Biological Sciences (3 credits)",
+        "Select one: Elective OR State Core Gen Ed Humanities2",
+        "Philosophy elective (3000 level; Gen Ed Humanities) (3 credits)",
+        "Gen Ed Physical Sciences (3 credits)"
+    ],
+    "Semester 5": [
+        "Electives (9 credits)",
+        "Required philosophy courses (6 credits)",
+        "Gen Ed Social and Behavioral Sciences (3 credits)",
+        "Science laboratory (Gen Ed Biological or Physical Sciences) (1 credits)"
+    ],
+    "Semester 6": [
+        "Required philosophy course (Critical Tracking) (CT) (3 credits)",
+        "Philosophy elective (3000 level) (3 credits)",
+        "Electives (9 credits)"
+    ],
+    "Semester 7": [
+        "Philosophy elective (3000 level) (3 credits)",
+        "Philosophy elective (4000 level;Critical Tracking) (CT) (3 credits)",
+        "Elective credits (3000 level or above, not in major) (9 credits)"
+    ],
+    "Semester 8": [
+        "Philosophy elective (4000 level;Critical Tracking) (CT) (3 credits)",
+        "Electives (3000 level or above, not in major) (9 credits)",
+        "Elective (3 credits)"
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "Select one: CHM 1025 OR CHM 2045 & 2045L (CT)",
+        "MAC 1147orMAC 2311 (CT)",
+        "State Core Gen Ed Composition; Writing Requirement (3 credits)",
+        "State Core Gen Ed Humanities with International/Diversity (3 credits)"
+    ],
+    "Semester 2": [
+        "Quest 2 (Gen Ed Social and Behavioral Sciences) (3 credits)",
+        "HUN 2201 (CT)",
+        "PSY 2012 (CT)",
+        "STA 2023",
+        "Gen Ed Composition; Writing Requirement (3 credits)"
+    ],
+    "Semester 3": [
+        "AEC 3030CorSPC 2608",
+        "APK 2100C (CT)",
+        "BSC 2010 & 2010L (CT)",
+        "Elective (Writing Requirement with International/Diversity) (3 credits)"
+    ],
+    "Semester 4": [
+        "APK 2105C (CT)",
+        "BSC 2011 & 2011L (CT)",
+        "Electives (Writing Requirement)",
+        "Elective (3 credits)"
+    ],
+    "Semester 5": [
+        "APK 3110C (CT)",
+        "APK 3200 (CT)",
+        "APK 3400orAPK 3405 (CT)",
+        "ATR 2010C",
+        "PHY 2053"
+    ],
+    "Semester 6": [
+        "APK 3220C (CT)",
+        "APK 4112orAPK 3113C (CT)",
+        "APK 4115 (CT)",
+        "APK 4050 (CT)",
+        "Approved electives (6 credits)"
+    ],
+    "Semester 7": [
+        "APK 4120orAPK 4103C (CT)",
+        "APK 4125C (CT)",
+        "APK 4144 (CT)",
+        "Approved electives (6 credits)"
+    ],
+    "Semester 8": [
+        "APK 4940C (CT)"
+    ]
+}

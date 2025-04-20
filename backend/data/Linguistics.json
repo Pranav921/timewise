@@ -1,0 +1,52 @@
+{
+    "Semester 1": [
+        "State Core Gen Ed Composition; Writing Requirement (3 credits)",
+        "State Core Gen Ed Mathematics, pure math (3 credits)",
+        "State Core Gen Ed Social and Behavioral Sciences (3 credits)",
+        "Foreign language (Critical Tracking; non-romance or non-Germanic recommended) (CT)"
+    ],
+    "Semester 2": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "State Core Gen Ed Biological or Physical Sciences (3 credits)",
+        "Foreign language (Critical Tracking; non-romance or non-Germanic recommended) (CT)",
+        "Electives (6 credits)"
+    ],
+    "Semester 3": [
+        "LIN 3010 (CT)",
+        "Electives or non-romance or non-Germanic foreign language if 4-3-3 option (6 credits)",
+        "Gen Ed Biological or Physical Sciences (areanottaken in semester two)1 (3 credits)",
+        "Science laboratory (Gen Ed Physical or Biological Sciences) (1 credits)",
+        "Gen Ed Social and Behavioral Sciences1 (3 credits)"
+    ],
+    "Semester 4": [
+        "Gen Ed Biological Sciences (3 credits)",
+        "Gen Ed Composition; Writing Requirement (3 credits)",
+        "Elective (3 credits)",
+        "Select one Gen Ed Mathematics course: (3 credits)",
+        "PHI 2100",
+        "PHI 3130",
+        "STA 2023",
+        "Gen Ed Social and Behavioral Sciences (3 credits)"
+    ],
+    "Semester 5": [
+        "LIN 3201orLIN 3460",
+        "Electives (3000 level, outside of linguistics) (6 credits)",
+        "Linguistics or linguistics-related course (3000 level or above) (3 credits)"
+    ],
+    "Semester 6": [
+        "LIN 3201orLIN 3460 (CT)",
+        "Elective (3000 level, outside of linguistics) (3 credits)",
+        "State Core Gen Ed Humanities (3 credits)",
+        "Linguistics or linguistics-related course (Critical Tracking; 3000 level or above) (CT) (3 credits)",
+        "Gen Ed Physical Sciences (3 credits)"
+    ],
+    "Semester 7": [
+        "Electives (3000 level, outside of linguistics) (6 credits)",
+        "Linguistics course (Critical Tracking; 3000 level or above) (CT) (3 credits)",
+        "Linguistics courses (3000 level or above, 4000 level recommended) (6 credits)"
+    ],
+    "Semester 8": [
+        "Electives (6 credits)",
+        "Linguistics courses (Critical Tracking; 3000 level or above, 4000 level recommended) (CT) (9 credits)"
+    ]
+}

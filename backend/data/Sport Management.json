@@ -1,0 +1,51 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "MAC 1105 (CT)",
+        "PSY 2012 (CT)",
+        "State Core Gen Ed Biological or Physical Sciences (3 credits)",
+        "Gen Ed Composition; Writing Requirement (3 credits)"
+    ],
+    "Semester 2": [
+        "Quest 2 (Gen Ed Biological and Physical Sciences) (3 credits)",
+        "Select one: ECO 2013 (CT) OR ECO 2023",
+        "STA 2023 (CT)",
+        "State Core Gen Ed Composition; Writing Requirement (3 credits)",
+        "Gen Ed Humanities International (3 credits)"
+    ],
+    "Semester 3": [
+        "MAN 3025 (CT)",
+        "SPC 2608orAEC 3030C",
+        "SPM 2000",
+        "Elective (Gen Ed  Diversity; Writing Requirement) (6 credits)"
+    ],
+    "Semester 4": [
+        "EME 2040orCGS 2531",
+        "MAR 3023 (CT)",
+        "SPM 2060",
+        "SPM 3012",
+        "State Core Gen Ed Humanities (3 credits)"
+    ],
+    "Semester 5": [
+        "ACG 2021 (CT)",
+        "SPM 4104 (CT)",
+        "SPM 4510 (CT)",
+        "Approved Elective (3 credits)",
+        "Elective (Writing Requirement) (4 credits)"
+    ],
+    "Semester 6": [
+        "SPM 4515 (CT)",
+        "SPM 4723 (CT)",
+        "Approved Electives (10 credits)"
+    ],
+    "Semester 7": [
+        "SPM 3306 (CT)",
+        "SPM 4154",
+        "SPM 4724 (CT)",
+        "SPM 4940",
+        "Approved Elective (3 credits)"
+    ],
+    "Semester 8": [
+        "Select one: SPM 4941C (CT) OR Non-Internship pre-approved SPM course electives over semesters 5-8 (Critical tracking)"
+    ]
+}

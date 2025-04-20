@@ -1,0 +1,80 @@
+{
+    "Semester 1": [
+        "Select one: AEB 2014 OR ECO 2013",
+        "ECO 2023",
+        "AEB 3103",
+        "BSC 2005 (CT)",
+        "Select one: BSC 2005L OR Any Gen Ed Biological Sciences or Physical Sciences Laboratory (Critical Tracking) (CT)",
+        "State Core Gen Ed Composition; Writing Requirement (3 credits)",
+        "State Core Gen Ed Humanities (3 credits)",
+        "Elective (3 credits)"
+    ],
+    "Semester 2": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "AEC 3030C (CT)",
+        "MAC 1140 (CT)",
+        "Gen Ed Biological or Physical Sciences (3 credits)",
+        "Elective (3 credits)"
+    ],
+    "Semester 3": [
+        "PSY 2012 (CT)",
+        "STA 2023",
+        "American history or political science elective (Gen Ed Social and Behavioral Sciences) (3 credits)",
+        "Gen Ed Composition; Writing Requirement (3 credits)",
+        "Gen Ed Diversity or International (3 credits)"
+    ],
+    "Semester 4": [
+        "Quest 2 (Gen Ed Physical Sciences) (3 credits)",
+        "AEC 3065",
+        "Agriculture/natural resource elective (3 credits)",
+        "Electives (6 credits)"
+    ],
+    "Semester 5": [
+        "AEC 3033C",
+        "AEC 3070C (CT)",
+        "AEC 3073",
+        "AEC 3413",
+        "AEC 3414"
+    ],
+    "Semester 6": [
+        "AEC 4031 (CT)",
+        "Select two: (6 credits)",
+        "AEC 3071",
+        "AEC 3209",
+        "AEC 3313",
+        "AEC 4036",
+        "AEC 4417",
+        "AEC 4465",
+        "AEC 4500",
+        "FYC 4408",
+        "PUR 3000",
+        "Select one: AEC 3322 OR AEB 4085",
+        "AEB 4123",
+        "AEB 4126",
+        "Similar ethics course",
+        "Approved elective in area of concentration (3 credits)"
+    ],
+    "Semester 7": [
+        "AEC 4946"
+    ],
+    "Semester 8": [
+        "AEB 3133",
+        "AEC 4035",
+        "AEC 4434 (CT)",
+        "Approved electives in area of concentration (6 credits)"
+    ],
+    "Semester 9": [
+        "Select two: (6 credits)",
+        "AEC 3071",
+        "AEC 3209",
+        "AEC 3313",
+        "AEC 4036",
+        "AEC 4417",
+        "AEC 4465",
+        "AEC 4500",
+        "FYC 4408",
+        "PUR 3000",
+        "Agriculture/natural resource elective (3 credits)",
+        "Approved elective in area of concentration (3 credits)"
+    ]
+}

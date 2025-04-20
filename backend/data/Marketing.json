@@ -1,0 +1,61 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "ECO 2023 (CT)",
+        "MAC 1140",
+        "State Core Gen Ed Biological or Physical Sciences (3 credits)"
+    ],
+    "Semester 2": [
+        "Quest 2 (Gen Ed Biological or Physical Sciences) (3 credits)",
+        "ECO 2013 (CT)",
+        "MAC 2233 (CT)",
+        "Gen Ed Composition; Writing Requirement (3 credits)",
+        "Gen Ed Diversity (3 credits)"
+    ],
+    "Semester 3": [
+        "ACG 2021 (CT)",
+        "Select one: CGS 2531 OR ISM 3013 (CT)",
+        "Career Readiness Course (Explore Phase) (1 credits)",
+        "State Core Gen Ed Composition (3 credits)",
+        "State Core Gen Ed Humanities (3 credits)",
+        "Elective (1 credits)"
+    ],
+    "Semester 4": [
+        "ACG 2071 (CT)",
+        "STA 2023 (CT)",
+        "Select one professional communication course: (3 credits)",
+        "GEB 3213",
+        "GEB 3218",
+        "SPC 2608",
+        "ENC 3312",
+        "Career Readiness Course (Apply Phase) (1 credits)",
+        "Gen Ed International (3 credits)",
+        "Elective (1 credits)"
+    ],
+    "Semester 5": [
+        "MAR 3023 (CT)",
+        "QMB 3250",
+        "QMB 3302",
+        "Career Readiness Course (Enrich Phase) (1 credits)",
+        "Restricted elective (3 credits)"
+    ],
+    "Semester 6": [
+        "FIN 3403",
+        "MAN 3025",
+        "MAR 3503",
+        "Career Readiness Course (Enrich Phase) (1 credits)"
+    ],
+    "Semester 7": [
+        "BUL 4310",
+        "GEB 3373",
+        "Marketing electives (3000/4000 level) (4 credits)",
+        "Restricted electives (4 credits)"
+    ],
+    "Semester 8": [
+        "MAN 4504",
+        "MAR 4803",
+        "Career Readiness Course (Advance Phase) (2 credits)",
+        "Marketing electives (3000/4000 level) (4 credits)",
+        "Elective (1 credits)"
+    ]
+}

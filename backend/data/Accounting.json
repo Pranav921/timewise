@@ -1,0 +1,54 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "ECO 2023 (CT)",
+        "MAC 2233 (CT)",
+        "State Core Gen Ed Composition; Writing Requirement: 6,000 words (3 credits)",
+        "Elective (2 credits)"
+    ],
+    "Semester 2": [
+        "ECO 2013 (CT)",
+        "GEB 3213",
+        "MAC 2234 (CT)",
+        "State Core Gen Ed Humanities with Diversity (3 credits)",
+        "State Core Gen Ed Biological or Physical Sciences (3 credits)"
+    ],
+    "Semester 3": [
+        "ACG 2021 (CT)",
+        "Select one: CGS 2531 OR ISM 3013 (CT)",
+        "GEB 3218",
+        "Gen Ed Humanities with International; Writing Requirement: 6,000 words (3 credits)",
+        "Elective (2 credits)"
+    ],
+    "Semester 4": [
+        "Quest 2 (Gen Ed Biological or Physical Sciences) (3 credits)",
+        "ACG 2071 (CT)",
+        "STA 2023 (CT)",
+        "Gen Ed Social and Behavioral Sciences; Writing Requirement: 6,000 words (3 credits)",
+        "Elective (2 credits)"
+    ],
+    "Semester 5": [
+        "ACG 3101 (CT)",
+        "FIN 3403 (CT)",
+        "MAN 3025 (CT)",
+        "QMB 3250 (CT)"
+    ],
+    "Semester 6": [
+        "ACG 3401 (CT)",
+        "ACG 4111 (CT)",
+        "MAR 3023 (CT)",
+        "QMB 3302 (CT)"
+    ],
+    "Semester 7": [
+        "ACG 4341 (CT)",
+        "BUL 4310 (CT)",
+        "GEB 3373 (CT)",
+        "Elective (3000-level or higher) (3 credits)"
+    ],
+    "Semester 8": [
+        "Select one: ACG 4632 OR ACG 5637 & ACG 5647 (CT)",
+        "MAN 4504 (CT)",
+        "Select one: TAX 4001 OR TAX 5025 & TAX 5027 (CT)",
+        "Elective (3000-level or higher) (3 credits)"
+    ]
+}

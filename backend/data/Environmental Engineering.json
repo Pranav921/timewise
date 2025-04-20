@@ -1,0 +1,61 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "Select one: CHM 2045 OR CHM 2095 (CT)",
+        "CHM 2045L",
+        "EGN 2020C",
+        "MAC 2311 (CT)"
+    ],
+    "Semester 2": [
+        "Select one: CHM 2046 OR CHM 2096 (CT)",
+        "CHM 2046L",
+        "Select one: ENC 1101 OR ENC 1102",
+        "MAC 2312 (CT)",
+        "State Core Gen Ed Humanities (3 credits)"
+    ],
+    "Semester 3": [
+        "Quest 2 (Gen Ed Social and Behavioral Sciences) (3 credits)",
+        "ENC 3246",
+        "ENV 2003",
+        "MAC 2313 (CT)",
+        "PHY 2048 (CT)",
+        "PHY 2048L"
+    ],
+    "Semester 4": [
+        "COP 2271",
+        "ENV 3001",
+        "EGM 2511",
+        "MAP 2302 (CT)",
+        "PHY 2049 (CT)",
+        "PHY 2049L"
+    ],
+    "Semester 5": [
+        "CGN 3501CorEMA 3010",
+        "State Core Gen Ed Social and Behavioral Sciences (3 credits)",
+        "Engineering graphics or geographic information systems elective (3 credits)"
+    ],
+    "Semester 6": [
+        "CWR 3201",
+        "EES 3206",
+        "ENV 3000 (4 credits)",
+        "ENV 3040CorCGN 3421"
+    ],
+    "Semester 7": [
+        "ENV 3930",
+        "ENV 4041C",
+        "ENV 4545",
+        "ENV 4453"
+    ],
+    "Semester 8": [
+        "CWR 4202",
+        "ENV 4454 (CT)",
+        "ENV 4601",
+        "ENV 4892 or EGN 4951",
+        "Technical elective (in dept.)1 (3 credits)"
+    ],
+    "Semester 9": [
+        "ENV 4009 (CT)",
+        "ENV 4893 or EGN 4952",
+        "Technical electives1 (9 credits)"
+    ]
+}

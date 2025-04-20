@@ -1,0 +1,59 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "COP 3502C",
+        "EGN 2020C",
+        "MAC 2311 (CT)"
+    ],
+    "Semester 2": [
+        "CAP 3032",
+        "COP 3503C",
+        "MAC 2312 (CT)",
+        "PHY 2048 (CT)",
+        "PHY 2048L"
+    ],
+    "Semester 3": [
+        "UF Quest 2 (Social and Behavioral Sciences) (3 credits)",
+        "CAP 3220",
+        "COT 3100 (CT)",
+        "MAC 2313 (CT)",
+        "PHY 2049 (CT)",
+        "PHY 2049L"
+    ],
+    "Semester 4": [
+        "ARH 2051 (CT)",
+        "CAP 3034",
+        "COP 3530 (CT)",
+        "MAP 2302 (CT)",
+        "Gen Ed Social and Behavioral Sciences (3 credits)"
+    ],
+    "Semester 5": [
+        "CAP 3027",
+        "CEN 3031",
+        "ENC 1101orENC 1102",
+        "MAS 3114orMAS 4105",
+        "PHI 2010"
+    ],
+    "Semester 6": [
+        "ART 2353C",
+        "CAP 3020 (CT)",
+        "COT 4501",
+        "CISE elective (3 credits)",
+        "Interdisciplinary elective (3 credits)"
+    ],
+    "Semester 7": [
+        "Select one: ART 2013C OR ART 2701C",
+        "ART 2702C",
+        "CIS 4930",
+        "ENC 3246",
+        "CISE elective (3 credits)",
+        "Interdisciplinary elective (3 credits)"
+    ],
+    "Semester 8": [
+        "CAP 4730",
+        "CIS 4914",
+        "COP 4020orCOP 4600",
+        "EGS 4034",
+        "Interdisciplinary electives (5 credits)"
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "ART 1803C (CT)",
+        "State Core Gen Ed Composition; Writing Requirement (3 credits)",
+        "State Core Gen Ed Humanities (3 credits)"
+    ],
+    "Semester 2": [
+        "ARH 2050 (CT)",
+        "ART 2013C (CT)",
+        "ART 2353C (CT)",
+        "State Core Gen Ed Biological or Physical Sciences (3 credits)",
+        "State Core Gen Ed Mathematics (3 credits)"
+    ],
+    "Semester 3": [
+        "ARH 2051 (CT)",
+        "Studio electives (Critical Tracking; ART/GRA/PGY prefixes at 2000 level OR DIG 2131C) (CT) (6 credits)",
+        "Foreign language (5 credits)"
+    ],
+    "Semester 4": [
+        "Quest 2 (Gen Ed Physical or Biological Sciences) (3 credits)",
+        "Select one 2000-level ARH survey course that focuses on the art of Africa, Asia, and/or Latin America and/or on the art of Native Americans, Aboriginal Australians, and/or Pacific Islanders",
+        "ARH 2500",
+        "ARH 2531",
+        "ARH 2613",
+        "Studio electives (Critical Tracking; ART/GRA/PGY prefixes at 2000 level OR DIG 2131C) (CT) (6 credits)",
+        "Foreign language (5 credits)"
+    ],
+    "Semester 5": [
+        "Before beginning 3/4000 studio coursework, students must successfully submit and pass the sophomore portfolio review.",
+        "State Core Gen Ed Social and Behavioral Sciences (3 credits)",
+        "ARH 3/4000 course OR ART 3892",
+        "Studio elective (ART/PGY/GRA prefix at 3/4000 level) (3 credits)",
+        "Electives (3/4000 level) (6 credits)"
+    ],
+    "Semester 6": [
+        "Gen Ed Mathematics (pure math) (3 credits)",
+        "Studio electives (ART/PGY prefix at 3/4000 level) (6 credits)",
+        "Electives (3/4000 level) (6 credits)"
+    ],
+    "Semester 7": [
+        "Studio elective (ART/PGY/GRA prefix at 3/4000 level) (3 credits)",
+        "Gen Ed Social and Behavioral Science (3 credits)",
+        "Electives (3/4000 level) (6 credits)",
+        "Elective (3 credits)"
+    ],
+    "Semester 8": [
+        "ART 4828C (CT)",
+        "Gen Ed Composition (3 credits)",
+        "Any Gen Ed Humanities, Social and Behavioral Science, Physical Science, or Biological Science (3 credits)",
+        "Electives (5 credits)"
+    ]
+}

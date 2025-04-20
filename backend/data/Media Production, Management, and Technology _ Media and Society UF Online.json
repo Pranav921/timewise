@@ -1,0 +1,57 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "AMH 2020",
+        "ENC 1101 (CT)",
+        "STA 2023 (CT)",
+        "State Core Gen Ed Physical or Biological Sciences1 (3 credits)"
+    ],
+    "Semester 2": [
+        "ECO 2013 (CT)",
+        "MUL 2010",
+        "Select one: THE 2000 OR ARH 2000",
+        "ENC 1102",
+        "Gen Ed Mathematics1 (3 credits)"
+    ],
+    "Semester 3": [
+        "Quest 2 (Gen Ed Biological or Physical Sciences) (3 credits)",
+        "ENC 3254",
+        "MMC 1009 (CT)",
+        "MMC 2121",
+        "RTV 3001 (CT)",
+        "Foreign language or Quantitative option1 (3 credits)"
+    ],
+    "Semester 4": [
+        "POS 2041",
+        "RTV 2100 (CT)",
+        "SPC 2608orORI 2000",
+        "VIC 3001",
+        "Foreign language or Quantitative option1 (3 credits)"
+    ],
+    "Semester 5": [
+        "MMC 4302orRTV 3411",
+        "RTV 3405",
+        "SYG 2000orPSY 2012",
+        "Outside concentration course (3 credits)",
+        "Specialization block courses (3 credits)"
+    ],
+    "Semester 6": [
+        "2 specialization block courses (Critical Tracking) (CT) (6 credits)",
+        "Outside concentration course (3 credits)",
+        "Electives (inside college) (6 credits)"
+    ],
+    "Semester 7": [
+        "MMC 3203orRTV 3432",
+        "RTV 4700orMMC 4200 (CT)",
+        "2 specialization block courses (6 credits)",
+        "Elective (inside college) (1 credits)",
+        "Outside concentration course (3 credits)"
+    ],
+    "Semester 8": [
+        "AMH 2010",
+        "RTV 4420 (CT)",
+        "Outside concentration course (3 credits)",
+        "Quantitative option or general elective (2 credits)",
+        "Elective (inside college) (1 credits)"
+    ]
+}

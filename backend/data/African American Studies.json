@@ -1,0 +1,53 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "State Core Gen Ed Composition (3 credits)",
+        "State Core Gen Ed Mathematics (3 credits)",
+        "Foreign language"
+    ],
+    "Semester 2": [
+        "AFA 2000 (CT)",
+        "State Core Gen Ed Biological or Physical Sciences (3 credits)",
+        "State Core Gen Ed Humanities (3 credits)",
+        "State Core Gen Ed Social and Behavioral Sciences (3 credits)",
+        "Foreign language"
+    ],
+    "Semester 3": [
+        "AFA 3110 (CT)",
+        "Gen Ed Social and Behavioral Sciences (3 credits)",
+        "Elective (or foreign language if 4-3-3 option) (3 credits)",
+        "Electives (7 credits)"
+    ],
+    "Semester 4": [
+        "AFA-prefix course (Critical Tracking; 3000 level and above) (CT) (3 credits)",
+        "AFA-prefix course or AFA-approved course (Critical Tracking) (CT) (3 credits)",
+        "Gen Ed Biological or Physical Sciences (area NOT taken in semester 2)1 (3 credits)",
+        "Gen Ed Mathematics (3 credits)",
+        "Gen Ed Social and Behavioral Sciences1 (3 credits)"
+    ],
+    "Semester 5": [
+        "AFA-prefix course or AFA-approved course (Critical Tracking) (CT) (3 credits)",
+        "Gen Ed Biological Sciences (3 credits)",
+        "Elective (3000 level and above; not in major) (3 credits)",
+        "Electives (7 credits)"
+    ],
+    "Semester 6": [
+        "AFA-prefix course (Critical Tracking; 3000 level and above) (CT) (3 credits)",
+        "AFA-prefix course or AFA-approved course (Critical Tracking) (CT) (3 credits)",
+        "Applied, experiential, or research methods course (3 credits)",
+        "Gen Ed Composition; Writing Requirement (3 credits)",
+        "Elective (3 credits)"
+    ],
+    "Semester 7": [
+        "AFA-prefix course or AFA-approved course (Critical Tracking) (CT) (3 credits)",
+        "Electives (3000 level and above; not in major) (9 credits)",
+        "Gen Ed Physical Sciences (3 credits)",
+        "Science laboratory (Gen Ed Biological or Physical Sciences) (1 credits)",
+        "Elective (3 credits)"
+    ],
+    "Semester 8": [
+        "AFA 4936 (CT)",
+        "Electives (3000 level and above; not in major) (9 credits)",
+        "Elective (3 credits)"
+    ]
+}

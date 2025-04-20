@@ -1,0 +1,67 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "COP 3502C",
+        "EGN 2020C",
+        "MAC 2311 (CT)"
+    ],
+    "Semester 2": [
+        "COP 3503C",
+        "COT 3100",
+        "MAC 2312 (CT)",
+        "PHY 2048 (CT)"
+    ],
+    "Semester 3": [
+        "EEL 3701C",
+        "State Core Gen Ed Composition (Writing requirement, 6,000 words) (3 credits)",
+        "State Core Social and Behavioral Sciences (Writing requirement) (3 credits)"
+    ],
+    "Semester 4": [
+        "Quest 2 (Gen Ed Social and Behavioral Sciences with Diversity; Writing Requirement) (3 credits)",
+        "CDA 3101",
+        "COP 3530",
+        "MAC 2313 (CT)",
+        "PHY 2049 (CT)"
+    ],
+    "Semester 5": [
+        "CEN 3031 (CT)",
+        "EEL 4744C (CT)",
+        "MAP 2302 (CT)",
+        "MAS 3114"
+    ],
+    "Semester 6": [
+        "COP 4600",
+        "EEL 3111C",
+        "EEL 4712C (CT)",
+        "STA 3032",
+        "Enrichment elective; Writing Requirement (1 credits)"
+    ],
+    "Semester 7": [
+        "ENC 3246",
+        "State Core Humanities with International or Writing Requirement (3 credits)",
+        "Enrichment elective (3 credits)",
+        "Technical electives (6 credits)"
+    ],
+    "Semester 8": [
+        "Select one CpE Design 1 course: (3 credits)",
+        "CEN 3907C",
+        "EGN 4951",
+        "Select one Physical or Biological Science Course Option: (4 credits)",
+        "AST 3018 & AST 1022L",
+        "BSC 2005 & 2005L",
+        "BSC 2010 & 2010L",
+        "CHM 2045 & 2045L",
+        "CHM 2095 & CHM 2045L",
+        "GLY 2010C",
+        "Enrichment elective (3 credits)",
+        "Technical electives (6 credits)"
+    ],
+    "Semester 9": [
+        "Select one CpE Design 2 course: (3 credits)",
+        "CEN 4908C (CT)",
+        "EGN 4952 (CT)",
+        "EEL 3135",
+        "EGS 4034",
+        "Technical electives (6 credits)"
+    ]
+}
