@@ -1,0 +1,56 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "MAC 2311 (CT)",
+        "CHM 2045 & 2045L (CT)",
+        "State Core Gen Ed Composition; Writing Requirement1 (3 credits)"
+    ],
+    "Semester 2": [
+        "BSC 2010 & 2010L (CT)",
+        "BSC 2891",
+        "CHM 2046 & 2046L (CT)",
+        "Gen Ed Composition (3 credits)"
+    ],
+    "Semester 3": [
+        "Select one: AEB 2014 OR AEB 3103",
+        "ECO 2013",
+        "ECO 2023",
+        "BSC 2011 & 2011L (CT)",
+        "CHM 2210 (CT)",
+        "State Core Gen Ed Social and Behavioral Sciences (3 credits)"
+    ],
+    "Semester 4": [
+        "Quest 2 (Gen Ed Diversity or International) (3 credits)",
+        "AEC 3033CorENC 2210",
+        "CHM 2211 & 2211L",
+        "MCB 3023 & 3023L (CT)"
+    ],
+    "Semester 5": [
+        "AEC 3030CorSPC 2608",
+        "MCB 4203orPCB 4233 (CT)",
+        "MCB 4403orPCB 3134 (CT)",
+        "Gen Ed Diversity or Gen Ed International3 (3 credits)",
+        "Electives (5 credits)"
+    ],
+    "Semester 6": [
+        "BCH 4024orCHM 3218",
+        "MCB 4304orPCB 4522",
+        "MCB 4034L (CT)",
+        "Gen Ed Mathematics (3 credits)",
+        "Department elective (3 credits)"
+    ],
+    "Semester 7": [
+        "Select one: PHY 2048 & 2048L OR PHY 2053 & 2053L",
+        "State Core Gen Ed Humanities (3 credits)",
+        "Writing Requirement (3 credits)",
+        "Department elective (3 credits)",
+        "Elective (3 credits)"
+    ],
+    "Semester 8": [
+        "Select one: PHY 2049 & 2049L OR PHY 2054 & 2054L",
+        "Gen Ed Social and Behavioral Sciences (3 credits)",
+        "Department elective (3 credits)",
+        "Science Elective (3 credits)",
+        "Elective (3 credits)"
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "Semester 1": [
+        "Quest (General Education Humanities) (3 credits)",
+        "MUS 1010",
+        "MUN 1000 or MUN 2000 (CT)",
+        "MUT 1111 (CT)",
+        "MUT 1241L (CT)",
+        "MVK 1111 (CT)",
+        "Gen Ed Mathematics (3 credits)",
+        "Elective (3 credits)"
+    ],
+    "Semester 2": [
+        "MUN 1000 or MUN 2000 (CT)",
+        "MUS 1010",
+        "MUS 1360",
+        "MUT 1112 (CT)",
+        "MUT 1242L (CT)",
+        "MVK 1112 (CT)",
+        "State Core Gen Ed Mathematics (3 credits)",
+        "Gen Ed Composition; Writing Requirement (3 credits)"
+    ],
+    "Semester 3": [
+        "MUH 2501",
+        "MUN 1000 or MUN 2000 (CT)",
+        "MUS 1010",
+        "MUT 2116orMUT 1361L (CT)",
+        "MUT 2246LorMUT 2213L (CT)",
+        "MVK 2221orMVK 2174L (CT)",
+        "State Core Gen Ed Physical and Biological Sciences (3 credits)",
+        "State Core Gen Ed Social and Behavioral Sciences (3 credits)"
+    ],
+    "Semester 4": [
+        "Quest 2 (Gen Ed Physical and Biological Sciences) (3 credits)",
+        "MUN 1000 or MUN 2000 (CT)",
+        "MUS 1010",
+        "MUT 2117 (CT)",
+        "Or MUT 1365 Commercial Music Theory and Practice 2",
+        "MUT 2247LorMUT 2215L (CT)",
+        "MVK 2222orMVK 2175L (CT)",
+        "State Core Gen Ed Humanities (3 credits)",
+        "Elective (3 credits)"
+    ],
+    "Semester 5": [
+        "HUM 3XXX (3 credits)",
+        "MUM 4051",
+        "MUN 3015L",
+        "MUS 1010",
+        "Music History elective (MUH 3000 or 4000 level) (3 credits)",
+        "Electives (6 credits)"
+    ],
+    "Semester 6": [
+        "MUM 4500C",
+        "MUN 3015L",
+        "MUS 1010",
+        "State Core Gen Ed Composition (3 credits)",
+        "Music History elective (MUH 3000 or 4000 level) (3 credits)",
+        "Electives (6 credits)"
+    ],
+    "Semester 7": [
+        "MUM 4005",
+        "MUM 4950",
+        "MUN 4940L",
+        "Gen Ed Social and Behavioral Sciences with Diversity (3 credits)",
+        "Electives (6 credits)"
+    ],
+    "Semester 8": [
+        "MUM 4951",
+        "MUM 4561C",
+        "MUN 4940L",
+        "MUT 3622",
+        "Electives (6 credits)"
+    ]
+}

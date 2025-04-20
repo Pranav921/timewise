@@ -1,0 +1,50 @@
+{
+    "Semester 1": [
+        "POR 1130 (CT)",
+        "SPN 2200 (CT)",
+        "Select one: State Core Gen Ed Biological or Physical Sciences OR State Core Gen Ed Mathematics",
+        "State Core Gen Ed Composition; Writing Requirement (3 credits)"
+    ],
+    "Semester 2": [
+        "Select one: POR 1131 OR POR 3010 (CT)",
+        "SPN 2201",
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "Select one: State Core Gen Ed Biological or Physical Sciences OR State Core Gen Ed Mathematics",
+        "State Core Gen Ed Social and Behavioral Sciences (3 credits)"
+    ],
+    "Semester 3": [
+        "POR 3242 (CT)",
+        "Select one: SPN 2240 OR SPN 2340 (CT)",
+        "State Core Gen Ed Humanities (3 credits)",
+        "Gen Ed Biological or Physical Sciences (areanottaken in semester one)1 (3 credits)",
+        "Gen Ed Social and Behavioral Sciences1 (3 credits)"
+    ],
+    "Semester 4": [
+        "Select one: SPN 3300 OR SPN 3350 (CT)",
+        "SPN/SPW/POR/POW 3xxx/4xxx required courses (Critical Tracking) (CT) (9 credits)",
+        "Elective (3000 level and above, not in major) (3 credits)",
+        "Gen Ed Humanities (3 credits)",
+        "Gen Ed Social and Behavioral Sciences (3 credits)"
+    ],
+    "Semester 5": [
+        "SPN/SPW/POR/POW 3xxx/4xxx required courses (Critical Tracking) (CT) (9 credits)",
+        "Gen Ed Composition; Writing Requirement (3 credits)",
+        "Electives (3000 level and above, not in major) (6 credits)",
+        "Gen Ed Physical Sciences (3 credits)",
+        "Science laboratory (Gen Ed Physical or Biological Sciences) (1 credits)"
+    ],
+    "Semester 6": [
+        "SPN/SPW/POR/POW 3xxx/4xxx required courses (Critical Tracking) (CT) (9 credits)",
+        "Gen Ed Biological Sciences (3 credits)",
+        "Elective (3000 level and above, not in major) (3 credits)",
+        "Elective (3 credits)"
+    ],
+    "Semester 7": [
+        "SPN/SPW/POR/POW 3xxx/4xxx required courses (Critical Tracking) (CT) (9 credits)",
+        "Electives (3000 level or above, not in major, or outstanding Gen Ed courses) (9 credits)"
+    ],
+    "Semester 8": [
+        "SPN/SPW/POR/POW 3xxx/4xxx required courses (Critical Tracking) (CT) (9 credits)",
+        "Electives (6 credits)"
+    ]
+}

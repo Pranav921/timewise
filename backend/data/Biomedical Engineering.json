@@ -1,0 +1,65 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "BME 1008",
+        "BSC 2010 (CT)",
+        "BSC 2010L",
+        "Select one: CHM 2045 OR CHM 2095 (CT)",
+        "CHM 2045L",
+        "MAC 2311 (CT)"
+    ],
+    "Semester 2": [
+        "Select one: CHM 2046 OR CHM 2096 (CT)",
+        "CHM 2046L",
+        "ENC 1101",
+        "MAC 2312 (CT)",
+        "PHY 2048 (CT)",
+        "PHY 2048L"
+    ],
+    "Semester 3": [
+        "Quest 2 (3 credits)",
+        "CHM 3217",
+        "COP 2271",
+        "COP 2271L",
+        "MAC 2313 (CT)",
+        "PHY 2049 (CT)",
+        "PHY 2049L"
+    ],
+    "Semester 4": [
+        "BME 3053C",
+        "BME 3060 (CT)",
+        "EEL 3003",
+        "ENC 3246",
+        "MAP 2302 (CT)",
+        "PCB 3713C (CT)"
+    ],
+    "Semester 5": [
+        "BME 3101",
+        "BME 3508 (CT)",
+        "BME 4311orBCH 4024 (CT)",
+        "BME 4503 (CT)",
+        "BME 4503L (CT)",
+        "EGM 2511"
+    ],
+    "Semester 6": [
+        "BME 3012 (CT)",
+        "BME 3323L (CT)",
+        "BME 4632 (CT)",
+        "STA 3032",
+        "Gen Ed Social and Behavioral Sciences with International; Writing Requirement: 6,000 words3 (3 credits)",
+        "BME elective2 (3 credits)"
+    ],
+    "Semester 7": [
+        "BME 4409 (CT)",
+        "BME 4621 (CT)",
+        "BME 4882 (CT)",
+        "State Core Gen Ed Social and Behavioral Sciences; Writing Requirement, 6,000 words3 (3 credits)",
+        "BME electives2 (6 credits)"
+    ],
+    "Semester 8": [
+        "BME 4531 (CT)",
+        "BME 4883 (CT)",
+        "State Core Gen Ed Humanities with Diversity3 (3 credits)",
+        "BME electives2 (6 credits)"
+    ]
+}

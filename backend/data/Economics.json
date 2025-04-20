@@ -1,0 +1,48 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "ECO 2023 (CT)",
+        "State Core Gen Ed Composition; Writing Requirement (3 credits)",
+        "Foreign language"
+    ],
+    "Semester 2": [
+        "ECO 2013 (CT)",
+        "MAC 2233 (CT)",
+        "State Core Gen Ed Biological or Physical Sciences (3 credits)",
+        "Science laboratory (Gen Ed Biological or Physical Sciences) (1 credits)",
+        "Foreign language"
+    ],
+    "Semester 3": [
+        "Quest 2 (Gen Ed Biological and Physical Sciences-area not taken in semester 2) (3 credits)",
+        "STA 2023 (CT)",
+        "State Core Gen Ed Humanities (3 credits)",
+        "Elective (or foreign language if 4-3-3 option) (3 credits)",
+        "Elective (3 credits)"
+    ],
+    "Semester 4": [
+        "Gen Ed Composition; Writing Requirement (3 credits)",
+        "Electives (5 credits)",
+        "Gen Ed Humanities (3 credits)",
+        "Gen Ed Physical Sciences (3 credits)"
+    ],
+    "Semester 5": [
+        "ECO 3101 (CT)",
+        "Gen Ed Biological Sciences (3 credits)",
+        "Electives (5 credits)"
+    ],
+    "Semester 6": [
+        "Economics courses (3000 level or above) (8 credits)",
+        "Elective (3 credits)",
+        "Electives (3000 level or above, not in major) (6 credits)"
+    ],
+    "Semester 7": [
+        "ECO 3203 (CT)",
+        "Economics course (3000 level or above) (4 credits)",
+        "Electives (3000 level or above, not in major) (6 credits)"
+    ],
+    "Semester 8": [
+        "Economics course (3000 level or above) (4 credits)",
+        "Electives (3000 level or above, not in major) (6 credits)",
+        "Electives (5 credits)"
+    ]
+}

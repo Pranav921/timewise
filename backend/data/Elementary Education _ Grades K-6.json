@@ -1,0 +1,60 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "State Core Gen Ed Biological or Physical Sciences (3 credits)",
+        "State Core Gen Ed Composition; Writing Requirement: 6,000 words (3 credits)",
+        "State Core Gen Ed Mathematics (3 credits)",
+        "State Core Gen Ed Social and Behavioral Sciences (3 credits)"
+    ],
+    "Semester 2": [
+        "EDF 1005 (CT)",
+        "Select one: EDF 3110 OR DEP 3053",
+        "State Core Gen Ed Humanities (3 credits)",
+        "Gen Ed Composition; Writing Requirement: 6,000 words (3 credits)",
+        "Gen Ed Mathematics (3 credits)"
+    ],
+    "Semester 3": [
+        "EDF 2085 (CT)",
+        "Gen Ed Biological or Physical Sciences (3 credits)",
+        "Elective (Gen Ed International) or a foreign language (3 credits)",
+        "Elective (Writing Requirement: 6,000 words) (3 credits)",
+        "Elective (3 credits)"
+    ],
+    "Semester 4": [
+        "Quest 2 (Gen Ed Biological or Physical Sciences OR Gen Ed Social and Behavioral Sciences) (3 credits)",
+        "EME 2040 (CT)",
+        "Elective (Gen Ed International) (3 credits)",
+        "Elective (Writing Requirement: 6,000 words) (3 credits)",
+        "Elective (3 credits)"
+    ],
+    "Semester 5": [
+        "EDE 3941",
+        "EDG 3623",
+        "MAE 4310",
+        "RED 3211",
+        "SCE 4310",
+        "TSL 3520"
+    ],
+    "Semester 6": [
+        "EDE 3941",
+        "EDG 3343",
+        "EDG 4442",
+        "MAE 4310L",
+        "SCE 4310L",
+        "SDS 3430",
+        "SSE 4312"
+    ],
+    "Semester 7": [
+        "EDE 4940",
+        "EDG 4703",
+        "EME 4401",
+        "LAE 4314",
+        "RED 3210"
+    ],
+    "Semester 8": [
+        "EDE 4940",
+        "EDG 4048",
+        "RED 4844",
+        "TSL 4100"
+    ]
+}

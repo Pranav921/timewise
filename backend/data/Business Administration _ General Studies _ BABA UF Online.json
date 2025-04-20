@@ -1,0 +1,56 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "ECO 2023 (CT)",
+        "MAC 1140",
+        "State Core Gen Ed Biological or Physical Sciences (3 credits)"
+    ],
+    "Semester 2": [
+        "Quest 2 (Gen Ed Biological or Physical Sciences) (3 credits)",
+        "ECO 2013 (CT)",
+        "MAC 2233 (CT)",
+        "Gen Ed Composition (Writing Requirement) (3 credits)",
+        "State Core Gen Ed Humanities (3 credits)"
+    ],
+    "Semester 3": [
+        "ACG 2021 (CT)",
+        "ISM 3013 (CT)",
+        "State Core Gen Ed Composition (3 credits)",
+        "Gen Ed Diversity (3 credits)",
+        "Gen Ed International (3 credits)"
+    ],
+    "Semester 4": [
+        "ACG 2071 (CT)",
+        "GEB 4941",
+        "STA 2023 (CT)",
+        "Select one professional communication course: (3 credits)",
+        "GEB 3219",
+        "SPC 2608",
+        "ENC 3254",
+        "Electives (4 credits)"
+    ],
+    "Semester 5": [
+        "MAN 3025",
+        "QMB 3250",
+        "QMB 3302",
+        "Area of specialization course"
+    ],
+    "Semester 6": [
+        "FIN 3403",
+        "MAR 3023",
+        "Area of specialization course",
+        "Business elective (4 credits)"
+    ],
+    "Semester 7": [
+        "BUL 4310",
+        "GEB 3373",
+        "Area of specialization course",
+        "Business elective (4 credits)"
+    ],
+    "Semester 8": [
+        "MAN 4504",
+        "Area of specialization course",
+        "Select one business elective (4 credits)",
+        "Elective"
+    ]
+}

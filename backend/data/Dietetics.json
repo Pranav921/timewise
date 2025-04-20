@@ -1,0 +1,56 @@
+{
+    "Semester 1": [
+        "Select one: AEB 2014 OR ECO 2013",
+        "ECO 2023",
+        "MAC 1147 (CT)",
+        "State Core Gen Ed Composition; Writing Requirement (3 credits)",
+        "State Core Gen Ed Humanities (3 credits)"
+    ],
+    "Semester 2": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "CHM 2045 & 2045L (CT)",
+        "PSY 2012",
+        "Gen Ed Composition; Writing Requirement (3 credits)",
+        "Elective (3 credits)"
+    ],
+    "Semester 3": [
+        "BSC 2010 & 2010L (CT)",
+        "CHM 2046 & 2046L (CT)",
+        "STA 2023",
+        "Electives (4 credits)"
+    ],
+    "Semester 4": [
+        "Quest 2 (3 credits)",
+        "BSC 2011 & 2011L (CT)",
+        "HUN 2201",
+        "MCB 2000 & 2000L"
+    ],
+    "Semester 5": [
+        "AEC 3030C",
+        "AEC 3033C",
+        "CHM 2210 (CT)",
+        "FOS 3042",
+        "MAN 3025"
+    ],
+    "Semester 6": [
+        "AEB 3122",
+        "APK 2105C",
+        "CHM 2211 & 2211L",
+        "DIE 3310 (CT)",
+        "HUN 3403"
+    ],
+    "Semester 7": [
+        "BCH 3025",
+        "DIE 4125 & 4125L",
+        "DIE 4245 (CT)",
+        "DIE 4505",
+        "HUN 4445"
+    ],
+    "Semester 8": [
+        "DIE 4246",
+        "DIE 4436",
+        "FOS 4311 & FOS 4310L",
+        "HUN 4221 (CT)",
+        "HUN 4446"
+    ]
+}

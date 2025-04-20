@@ -1,0 +1,55 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "ENC 1101",
+        "State Core Gen Ed Mathematics, pure math (3 credits)",
+        "State Core Gen Ed Biological or Physical Sciences (Critical Tracking)1 (CT) (3 credits)",
+        "Select one (Critical Tracking; State Core Gen Ed Social and Behavioral Sciences): (CT) (3 credits)",
+        "PSY 2012orSYG 2000"
+    ],
+    "Semester 2": [
+        "Select one (Critical Tracking; Gen Ed Social and Behavioral Sciences): (CT) (3 credits)",
+        "EDF 3110orDEP 3053",
+        "STA 2023 (CT)",
+        "Gen Ed Composition; Writing Requirement (3 credits)",
+        "Elective2 (3 credits)",
+        "Elective (3 credits)"
+    ],
+    "Semester 3": [
+        "APK 2100C (CT)",
+        "MCB 2000 & 2000L (CT)",
+        "Elective (Writing Requirement) (3 credits)",
+        "State Core Gen Ed Humanities (3 credits)"
+    ],
+    "Semester 4": [
+        "Quest 2 (3 credits)",
+        "APK 2105C (CT)",
+        "HUN 2201 (CT)",
+        "Elective (3 credits)",
+        "Elective (Writing Requirement) (3 credits)"
+    ],
+    "Semester 5": [
+        "NUR 3066C (CT)",
+        "NUR 3106",
+        "NUR 3737C",
+        "NUR 3196"
+    ],
+    "Semester 6": [
+        "NUR 3128",
+        "NUR 3168",
+        "NUR 3219C",
+        "NUR 3227C (CT)",
+        "NUR 3535C"
+    ],
+    "Semester 7": [
+        "NUR 4108",
+        "NUR 4467C",
+        "NUR 4768C (CT)"
+    ],
+    "Semester 8": [
+        "NUR 4827",
+        "NUR 4636C",
+        "NUR 4766C (CT)",
+        "NUR 4815"
+    ]
+}

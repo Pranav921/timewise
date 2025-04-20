@@ -1,0 +1,64 @@
+{
+    "Semester 1": [
+        "MAC 2233 (CT)",
+        "State Core Gen Ed Composition; Writing Requirement (3 credits)",
+        "State Core Gen Ed Humanities (3 credits)",
+        "State Core Gen Ed Social and Behavioral Sciences (3 credits)",
+        "Elective (3 credits)"
+    ],
+    "Semester 2": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "Select one: AEB 2014 OR ECO 2013",
+        "ECO 2023",
+        "Select one: BSC 2005 & 2005L OR BSC 2010 & 2010L (CT)",
+        "STA 2023 (CT)",
+        "Gen Ed Composition (Writing Requirement) (3 credits)"
+    ],
+    "Semester 3": [
+        "Quest 2 (Gen Ed Social and Behavioral Sciences) (3 credits)",
+        "Select one: AEC 3030C OR SPC 2608 (CT)",
+        "CHM 2045 & 2045L (CT)",
+        "GLY 2030C",
+        "Gen Ed Humanities (3 credits)"
+    ],
+    "Semester 4": [
+        "ALS 3133",
+        "CHM 2046 & 2046L (CT)",
+        "Select one: PHY 2020 OR PHY 2004",
+        "SWS 2007",
+        "Elective (3 credits)"
+    ],
+    "Semester 5": [
+        "Select one: ALS 3153 OR SWS 4303C",
+        "WIS 3404",
+        "SWS 3022 (CT)",
+        "SWS 4244",
+        "Approved elective (3 credits)"
+    ],
+    "Semester 6": [
+        "AEB 3133orMAN 3025",
+        "AEC 3033C",
+        "Select one: ENY 3005 & 3005L OR IPM 3022 (CT)",
+        "Approved elective (3 credits)",
+        "Elective (3 credits)"
+    ],
+    "Semester 7": [
+        "Select one: SWS 4900 OR SWS 4905",
+        "SWS 4911",
+        "SWS 4915",
+        "SWS 4941",
+        "Approved elective (3 credits)"
+    ],
+    "Semester 8": [
+        "AOM 4643",
+        "FNR 4660 (CT)",
+        "SWS 4720C (CT)",
+        "Approved elective (3 credits)",
+        "Elective (3 credits)"
+    ],
+    "Semester 9": [
+        "SWS 4116",
+        "SWS 4223 (CT)",
+        "Approved electives (6 credits)"
+    ]
+}

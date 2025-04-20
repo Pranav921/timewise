@@ -1,0 +1,62 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "CHM 2045orCHM 2095 (CT)",
+        "CHM 2045L",
+        "EML 2920",
+        "ENC 1101orENC 1102",
+        "MAC 2311 (CT)"
+    ],
+    "Semester 2": [
+        "EML 2023 (CT)",
+        "ENC 3246",
+        "MAC 2312 (CT)",
+        "PHY 2048 (CT)",
+        "PHY 2048L",
+        "Approved Science elective (3 credits)"
+    ],
+    "Semester 3": [
+        "COP 2271",
+        "EAS 2011",
+        "EGM 2511",
+        "MAC 2313 (CT)",
+        "PHY 2049 (CT)",
+        "PHY 2049L"
+    ],
+    "Semester 4": [
+        "Quest 2 (Gen Ed Social and Behavioral Sciences) (3 credits)",
+        "EGM 3344",
+        "EGM 3520",
+        "EML 2322L",
+        "EML 3100",
+        "MAP 2302 (CT)"
+    ],
+    "Semester 5": [
+        "EAS 4101",
+        "EEL 3003",
+        "EGM 3401",
+        "EMA 3010",
+        "MAP 4305",
+        "Select one: Gen Ed Humanities; Writing Requirement: 6,000 words1 OR Gen Ed Social and Behavioral Sciences; Writing Requirement: 6,000 words1"
+    ],
+    "Semester 6": [
+        "EAS 4132",
+        "EAS 4510",
+        "EML 3301C",
+        "EML 4312",
+        "Approved Aerospace elective (3 credits)"
+    ],
+    "Semester 7": [
+        "EAS 4200",
+        "EAS 4400",
+        "EAS 4810C",
+        "State Core Gen Ed Humanities1 (3 credits)",
+        "Approved Aerospace elective (3 credits)"
+    ],
+    "Semester 8": [
+        "EAS 4300",
+        "EAS 4700orEAS 4710",
+        "State Core Gen Ed Social and Behavioral Sciences1 (3 credits)",
+        "Approved Technical electives (6 credits)"
+    ]
+}

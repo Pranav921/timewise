@@ -1,0 +1,63 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "Select one: BSC 2010 & 2010L OR BOT 2010C (CT)",
+        "Select one: MAC 1140 & MAC 1114 OR MAC 1147 (CT)",
+        "MAC 2233 (CT)",
+        "State Core Gen Ed Composition; Writing Requirement; with Diversity or International (3 credits)",
+        "Elective (1 credits)"
+    ],
+    "Semester 2": [
+        "Select one: ACG 2021 OR Advisor-approved alternative (Critical Tracking) (CT)",
+        "CHM 2045 & 2045L (CT)",
+        "State Core Gen Ed Humanities with Diversity or International (3 credits)",
+        "Approved elective (3 credits)",
+        "Gen Ed Physical Sciences (3 credits)"
+    ],
+    "Semester 3": [
+        "AOM 2520",
+        "ECO 2013 (CT)",
+        "Select one: PHY 2004 & 2004L OR PHY 2020 & PHY 2004L",
+        "CGS 2531"
+    ],
+    "Semester 4": [
+        "Quest 2 (3 credits)",
+        "Select one: AEC 3030C OR SPC 2608",
+        "ENC 2210",
+        "STA 2023 (CT)"
+    ],
+    "Semester 5": [
+        "AEB 3300orMAR 3023",
+        "AEB 3133orMAN 3025",
+        "AOM 3220",
+        "AOM 3333",
+        "Approved elective (3 credits)"
+    ],
+    "Semester 6": [
+        "AOM 3734"
+    ],
+    "Semester 7": [
+        "ALS 3133orAOM 4521",
+        "AOM 4314C",
+        "SWS 3022",
+        "Approved electives (6 credits)"
+    ],
+    "Semester 8": [
+        "Select one business law, ethics, or human resources course:",
+        "AEB 4085",
+        "AEB 4123",
+        "AEB 4126",
+        "BUL 4310",
+        "AOM 4642",
+        "AOM 4643",
+        "AOM 4933",
+        "Approved electives (6 credits)"
+    ],
+    "Semester 9": [
+        "AOM 4434",
+        "AOM 4444C",
+        "AOM 4455",
+        "AOM 4461",
+        "Approved elective (3 credits)"
+    ]
+}

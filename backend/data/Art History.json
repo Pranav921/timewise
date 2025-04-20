@@ -1,0 +1,50 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "ARH 2050 (CT)",
+        "Foreign language Beginning Sequence 1 (Critical Tracking) (CT)",
+        "Gen Ed Composition; Writing Requirement (3 credits)"
+    ],
+    "Semester 2": [
+        "ARH 2051 (CT)",
+        "Foreign language Beginning Sequence 2 (Critical Tracking) (CT)",
+        "State Core Gen Ed Mathematics, pure math (3 credits)",
+        "State Core Gen Ed Social and Behavioral Sciences (3 credits)"
+    ],
+    "Semester 3": [
+        "Quest 2 (3 credits)",
+        "Select one: ARH 2500 OR ARH survey course (Critical Tracking; 2000 level)1 (CT)",
+        "State Core Gen Ed Biological or Physical Sciences (3 credits)",
+        "State Core Gen Ed Humanities (3 credits)",
+        "Gen Ed Mathematics (3 credits)"
+    ],
+    "Semester 4": [
+        "Select one ART elective (Critical Tracking; 1000/2000 level) (CT) (3 credits)",
+        "ARH art history elective (Critical Tracking; 3000/4000 level)2 (CT) (3 credits)",
+        "Gen Ed Biological or Physical Sciences (3 credits)",
+        "State Core Gen Ed Composition (3 credits)",
+        "Gen Ed Social and Behavioral Sciences (3 credits)"
+    ],
+    "Semester 5": [
+        "ARH art history electives (Critical Tracking; 3000/4000 level)2 (CT) (6 credits)",
+        "Gen Ed Social and Behavioral Sciences (3 credits)",
+        "Elective (3000/4000 level) (3 credits)",
+        "Elective (3 credits)"
+    ],
+    "Semester 6": [
+        "ARH art history electives (Critical Tracking; 3000/4000 level)2 (CT) (6 credits)",
+        "Electives (3000/4000 level) (6 credits)",
+        "Elective (3 credits)"
+    ],
+    "Semester 7": [
+        "ARH 4931 (CT)",
+        "ARH art history electives (Critical Tracking; 3000/4000 level)2 (CT) (6 credits)",
+        "Elective (3000/4000 level) (3 credits)",
+        "Electives (9 credits)"
+    ],
+    "Semester 8": [
+        "ART or ARH art studio or art history electives (Critical Tracking; 3000/4000 level)2 (CT) (6 credits)",
+        "Elective (3000/4000 level) (3 credits)",
+        "Electives (9 credits)"
+    ]
+}

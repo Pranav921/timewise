@@ -1,0 +1,61 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "BSC 2005 & 2005L (CT)",
+        "State Core Gen Ed Composition; Writing Requirement (3 credits)",
+        "Elective (3 credits)"
+    ],
+    "Semester 2": [
+        "Quest 2 (Gen Ed Physical Sciences) (3 credits)",
+        "SYG 2000 (CT)",
+        "Gen Ed International (3 credits)",
+        "Gen ED Mathematics (3 credits)",
+        "General elective (3 credits)"
+    ],
+    "Semester 3": [
+        "AEC 3030CorSPC 2608",
+        "PSY 2012 (CT)",
+        "State Core Gen Ed Humanities (3 credits)",
+        "Gen Ed Composition (3 credits)",
+        "Gen Ed Diversity (3 credits)"
+    ],
+    "Semester 4": [
+        "Select one: AEB 2014 OR ECO 2013 (CT)",
+        "ECO 2023 (CT)",
+        "Select one: AEC 3033C OR ENC 2210",
+        "ENC 3254",
+        "FYC 3001",
+        "STA 2023 (CT)",
+        "Gen Ed Biological or Physical Sciences (3 credits)"
+    ],
+    "Semester 5": [
+        "FYC 3201",
+        "FYC 3401",
+        "General elective (3 credits)"
+    ],
+    "Semester 6": [
+        "FYC 3112",
+        "FYC 3115",
+        "FYC 4114",
+        "FYC 4622",
+        "Minor or specialization course (Critical Tracking) (CT) (3 credits)"
+    ],
+    "Semester 7": [
+        "FYC 4801",
+        "FYC advanced topic course (3 credits)",
+        "FYC elective (Critical Tracking) (CT) (3 credits)",
+        "Minor or specialization course (3 credits)",
+        "Minor or specialization or FYC advanced topic course (3 credits)"
+    ],
+    "Semester 8": [
+        "FYC 4931",
+        "FYC advanced topic course (3 credits)",
+        "FYC elective (3 credits)",
+        "Minor or specialization courseCritical Tracking) (CT) (3 credits)"
+    ],
+    "Semester 9": [
+        "FYC 4941",
+        "FYC advanced topic or minor course (3 credits)",
+        "Minor or specialization course (Critical Tracking) (CT) (3 credits)"
+    ]
+}

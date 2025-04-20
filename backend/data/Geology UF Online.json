@@ -1,0 +1,50 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "State Core Gen Ed Composition; Writing Requirement (3 credits)",
+        "State Core Gen Ed Mathematics (Critical Tracking) (CT)",
+        "Foreign language",
+        "Select one elective (3 credits)"
+    ],
+    "Semester 2": [
+        "Select one: GLY 2010C OR ESC 1000 (CT)",
+        "GLY 1000 (CT)",
+        "OCE 1001 (CT)",
+        "State Core Gen Ed Biological Sciences (3 credits)",
+        "State Core Gen Ed Social and Behavioral Sciences (3 credits)",
+        "Foreign language"
+    ],
+    "Semester 3": [
+        "Quest 2 (Gen Ed Social and Behavioral Sciences) (3 credits)",
+        "Select one: GLY 2100C OR GLY 3105C (CT)",
+        "Elective or foreign language if 4-3-3 option (3 credits)",
+        "Electives (4 credits)"
+    ],
+    "Semester 4": [
+        "GLY 3202C (CT)",
+        "Gen Ed Biological Sciences (3 credits)",
+        "State Core Gen Ed Humanities (3 credits)",
+        "Gen Ed Mathematics1",
+        "Gen Ed Social and Behavioral Sciences (3 credits)"
+    ],
+    "Semester 5": [
+        "Gen Ed Composition (3 credits)",
+        "Electives (3000 level or above, not in major) (6 credits)",
+        "Geology elective (Critical Tracking; 3000 level or above (CT) (4 credits)",
+        "Gen Ed Humanities (3 credits)"
+    ],
+    "Semester 6": [
+        "Geology electives (3000 level or above) (7 credits)",
+        "Electives (3000 level or above, not in major) (6 credits)"
+    ],
+    "Semester 7": [
+        "Geology electives (3000 level or above) (7 credits)",
+        "Electives (4 credits)"
+    ],
+    "Semester 8": [
+        "GLY 4155C (CT)",
+        "Geology elective (2 credits)",
+        "Electives (3000 level or above, not in major) (6 credits)",
+        "Electives (4 credits)"
+    ]
+}

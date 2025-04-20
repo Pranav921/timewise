@@ -1,0 +1,59 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities)1,2 (3 credits)",
+        "Select one: CHM 2045 OR CHM 2095",
+        "EIN 2002",
+        "ENC 1101",
+        "MAC 2311 (CT)",
+        "State Core Gen Ed Humanitieswith Diversity or International, Writing Requirement: 6,000 words1,2 (3 credits)"
+    ],
+    "Semester 2": [
+        "Quest 2 (Gen Ed Physical or Biological Sciences OR Gen Ed Social and Behavioral Sciences)1,2 (3 credits)",
+        "EGN 2020C",
+        "ECO 2013",
+        "PHY 2048 (CT)",
+        "MAC 2312 (CT)"
+    ],
+    "Semester 3": [
+        "COP 2332C (CT)",
+        "MAC 2313 (CT)",
+        "ENC 3246",
+        "MAS 3114",
+        "PHY 2049 (CT)"
+    ],
+    "Semester 4": [
+        "ECO 2023",
+        "EGM 2511",
+        "EIN 3354",
+        "ESI 3327C",
+        "Select one: CGN 2328 OR EML 2023"
+    ],
+    "Semester 5": [
+        "EGS 4034",
+        "ESI 4356 (CT)",
+        "ESI 3215C",
+        "ESI 3312",
+        "Engineering elective1,6 (3 credits)"
+    ],
+    "Semester 6": [
+        "EIN 4451",
+        "ESI 4313",
+        "EIN 3241",
+        "ESI 4523",
+        "ESI 4610"
+    ],
+    "Semester 7": [
+        "Restricted elective (Breadth)1,7 (3 credits)",
+        "Restricted elective (Depth;Critical Tracking)1,7 (CT) (3 credits)",
+        "Restricted elective (Depth/Breadth;Critical Tracking)1,7 (CT) (3 credits)",
+        "Technical elective1,5 (3 credits)",
+        "Financial accounting course1 (3 credits)"
+    ],
+    "Semester 8": [
+        "EIN 4335",
+        "Restricted elective (Depth)1,7 (3 credits)",
+        "Restricted elective (Breadth/Depth)1,7 (3 credits)",
+        "Technical elective1,5 (3 credits)",
+        "General elective1,5 (3 credits)"
+    ]
+}

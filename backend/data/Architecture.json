@@ -1,0 +1,50 @@
+{
+    "Semester 1": [
+        "ARC 1301 (CT)",
+        "ARC 1701 (CT)",
+        "DCP 1003 (CT)",
+        "State Core Gen Ed Social and Behavioral Sciences (3 credits)",
+        "Gen Ed Mathematics (3 credits)"
+    ],
+    "Semester 2": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "ARC 1302 (CT)",
+        "ARC 1702 (CT)",
+        "Gen Ed Biological or Physical Sciences (3 credits)",
+        "Gen Ed Composition; Writing Requirement (3 credits)"
+    ],
+    "Semester 3": [
+        "ARC 2490C (CT)",
+        "ARC 2201 (CT)",
+        "ARC 2303 (CT)",
+        "MAC 1147 (CT)"
+    ],
+    "Semester 4": [
+        "Quest 2 (Gen Ed Physical, Biological, or Social and Behavioral Sciences) (3 credits)",
+        "ARC 2304 (CT)",
+        "ARC 2491C (CT)",
+        "PHY 2053 (CT)"
+    ],
+    "Semester 5": [
+        "ARC 3320 (CT)",
+        "ARC 3492C (CT)",
+        "ARC 3743 (CT)"
+    ],
+    "Semester 6": [
+        "ARC 3493C (CT)",
+        "ARC 3321 (CT)",
+        "State Core Gen Ed Humanities (3 credits)"
+    ],
+    "Semester 7": [
+        "ARC 4220 (CT)",
+        "ARC 4322",
+        "ARC 4494C",
+        "Elective3 (3 credits)"
+    ],
+    "Semester 8": [
+        "Select one: ARC 4310C OR Elective3",
+        "ARC 4323",
+        "State Core Gen Ed; Writing Requirement (3 credits)",
+        "Elective3 (3 credits)"
+    ]
+}

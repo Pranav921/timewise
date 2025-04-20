@@ -1,0 +1,49 @@
+{
+    "Semester 1": [
+        "State Core Gen Ed Biological or Physical Sciences (3 credits)",
+        "State Core Gen Ed Social and Behavioral Sciences (3 credits)",
+        "State Core Gen Ed Composition; Writing Requirement (3 credits)",
+        "State Core Gen Ed Mathematics (3 credits)",
+        "IDS 2935"
+    ],
+    "Semester 2": [
+        "State Core Gen Ed Humanities (3 credits)",
+        "Gen Ed Biological or Physical Sciences (area not taken in semester one) (3 credits)",
+        "Gen Ed Composition; Writing Requirement (3 credits)",
+        "Gen Ed Mathematics (3 credits)",
+        "Gen Ed Social and Behavioral Sciences (3 credits)"
+    ],
+    "Semester 3": [
+        "Select one: POR 1130 OR POR 3010 (CT)",
+        "Gen Ed Humanities (3 credits)",
+        "Gen Ed Biological or Physical Sciences (areanottaken in semester 2)2 (3 credits)",
+        "Gen Ed Social and Behavioral Sciences2 (3 credits)",
+        "Science laboratory (Gen Ed Physical or Biological Sciences) (1 credits)"
+    ],
+    "Semester 4": [
+        "Select one: POR 1131 OR POR 3010 (CT)",
+        "Gen Ed Biological Sciences (3 credits)",
+        "Gen Ed Composition; Writing Requirement (3 credits)",
+        "Elective (3000 level and above, not in major) (3 credits)"
+    ],
+    "Semester 5": [
+        "POR 3242 (CT)",
+        "POR or POW or PRT 3000/4000-level course (Critical Tracking) (CT) (3 credits)",
+        "Electives (4 credits)"
+    ],
+    "Semester 6": [
+        "POR 3243",
+        "POR or POW or PRT 4000-level courses (Critical Tracking) (CT)",
+        "Elective (3000 level and above, not in major) (3 credits)",
+        "Elective (3 credits)"
+    ],
+    "Semester 7": [
+        "POR or POW or PRT 3000/4000-level courses (Critical Tracking) (CT) (9 credits)",
+        "Elective (3000 level or above, not in major) (3 credits)",
+        "Electives (4 credits)"
+    ],
+    "Semester 8": [
+        "POR or POW or PRT 4000-level courses (Critical Tracking) (CT)",
+        "Electives (3000 level or above, not in major) (6 credits)"
+    ]
+}

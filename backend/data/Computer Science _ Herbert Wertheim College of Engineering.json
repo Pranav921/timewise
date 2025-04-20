@@ -1,0 +1,58 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "COP 3502C (CT)",
+        "EGN 2020C",
+        "MAC 2311 (CT)"
+    ],
+    "Semester 2": [
+        "COP 3503C",
+        "COT 3100",
+        "MAC 2312 (CT)",
+        "PHY 2048 & 2048L (CT)"
+    ],
+    "Semester 3": [
+        "ENC 1101orENC 1102",
+        "State Core Gen Ed Biological or Physical Sciences (3 credits)",
+        "State Core Gen Ed Humanities (3 credits)"
+    ],
+    "Semester 4": [
+        "CDA 3101",
+        "COP 3530",
+        "MAC 2313 (CT)",
+        "PHY 2049 & 2049L (CT)"
+    ],
+    "Semester 5": [
+        "CEN 3031",
+        "CIS 4301",
+        "ENC 3246",
+        "MAS 3114orMAS 4105",
+        "Gen Ed Social and Behavioral Sciences with Diversity or International (3 credits)"
+    ],
+    "Semester 6": [
+        "Quest 2 (Gen Ed Social and Behavioral Sciences OR Gen Ed Biological or Physical Sciences) (3 credits)",
+        "COP 4600",
+        "STA 3032",
+        "Technical  elective (3 credits)"
+    ],
+    "Semester 7": [
+        "COP 4020",
+        "COP 4533",
+        "Interdisciplinary electives (5 credits)",
+        "Technical elective (3 credits)"
+    ],
+    "Semester 8": [
+        "Internship / Co-op (if desired)"
+    ],
+    "Semester 9": [
+        "CNT 4007",
+        "EGS 4034orCGS 3065",
+        "Technical electives (6 credits)",
+        "Interdisciplinary elective (3 credits)"
+    ],
+    "Semester 10": [
+        "EGN 4952orCIS 4914",
+        "Technical electives (6 credits)",
+        "Interdisciplinary electives (5 credits)"
+    ]
+}

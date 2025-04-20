@@ -1,0 +1,53 @@
+{
+    "Semester 1": [
+        "ARC 1301 (CT)",
+        "DCP 1003 (CT)",
+        "IND 1020 (CT)",
+        "IND 2100 (CT)",
+        "MAC 1147",
+        "State Core Gen Ed Composition; Writing Requirement (3 credits)"
+    ],
+    "Semester 2": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "ARC 1302 (CT)",
+        "IND 2130 (CT)",
+        "PHY 2053",
+        "Gen Ed Mathematics (3 credits)"
+    ],
+    "Semester 3": [
+        "ARH 2051 (CT)",
+        "IND 2313 (CT)",
+        "IND 2635 (CT)",
+        "Elective (2 credits)"
+    ],
+    "Semester 4": [
+        "Quest 2 (Gen Ed Physical, Biological Sciences or Social and Behavioral Sciences) (3 credits)",
+        "IND 2214 (CT)",
+        "IND 2460C (CT)",
+        "State Core Gen Ed Humanities (3 credits)"
+    ],
+    "Semester 5": [
+        "IND 3215 (CT)",
+        "IND 3422 (CT)",
+        "IND 3468 (CT)",
+        "IND 3483 (CT)"
+    ],
+    "Semester 6": [
+        "ENC 3254",
+        "IND 3216 (CT)",
+        "IND 3431",
+        "IND 3512"
+    ],
+    "Semester 7": [
+        "IND 4225 (CT)",
+        "IND 4450C",
+        "IND 4940",
+        "State Core Gen Ed Social and Behavioral Sciences (3 credits)"
+    ],
+    "Semester 8": [
+        "IND 4226 (CT)",
+        "Gen Ed Social and Behavioral Sciences (3 credits)",
+        "Elective (3000/4000 level) (3 credits)",
+        "Elective (2 credits)"
+    ]
+}

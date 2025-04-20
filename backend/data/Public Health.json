@@ -1,0 +1,52 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "PSY 2012 (CT)",
+        "State Core Gen Ed Composition; Writing Requirement (3 credits)",
+        "Gen Ed Biological Sciences or Physical Sciences (Critical Tracking)1 (CT) (3 credits)",
+        "Gen Ed Mathematics (Critical Tracking)1 (CT) (3 credits)"
+    ],
+    "Semester 2": [
+        "STA 2023 (CT)",
+        "State Core Gen Ed Humanities with Diversity (Critical Tracking)1 (CT) (3 credits)",
+        "Gen Ed Composition; Writing Requirement (3 credits)",
+        "Electives (PHC 2100recommended) (6 credits)"
+    ],
+    "Semester 3": [
+        "Quest 2 (Gen Ed Social and Behavioral Sciences) (3 credits)",
+        "Select one: BSC 2005 OR BSC 2010 (CT)",
+        "Elective (Writing Requirement; 6000 words) (3 credits)",
+        "Electives (9 credits)"
+    ],
+    "Semester 4": [
+        "ENC 3254 (CT)",
+        "HSA 3111 (CT)",
+        "PHC 4101 (CT)",
+        "Gen Ed Biological Sciences or Physical Sciences (3 credits)",
+        "Gen Ed Social and Behavioral Sciences (3 credits)"
+    ],
+    "Semester 5": [
+        "PHC 3603 (CT)",
+        "PHC 4418 (CT)",
+        "Approved College Elective (3 credits)",
+        "Electives (complete Writing Requirement) (6 credits)"
+    ],
+    "Semester 6": [
+        "HSC 3057",
+        "PHC 3440 (CT)",
+        "PHC 4094 (CT)",
+        "Approved college elective (3 credits)",
+        "Elective (3 credits)"
+    ],
+    "Semester 7": [
+        "PHC 4024 (CT)",
+        "PHC 4320 (CT)",
+        "PHC 4XXX (CT) (3 credits)",
+        "Electives (9 credits)"
+    ],
+    "Semester 8": [
+        "PHC 4117 (CT)",
+        "PHC 4943 (CT)",
+        "Electives (9 credits)"
+    ]
+}

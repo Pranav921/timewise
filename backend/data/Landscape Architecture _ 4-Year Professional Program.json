@@ -1,0 +1,51 @@
+{
+    "Semester 1": [
+        "DCP 1003 (CT)",
+        "Select one: ENC 1101 OR ENC 1102",
+        "LAA 1330",
+        "LAA 1920 (CT)",
+        "State Core Gen Ed Social and Behavioral Sciences (3 credits)",
+        "Gen Ed Mathematics (3 credits)"
+    ],
+    "Semester 2": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "Select one: ARC 1701 OR ARC 1720 (CT)",
+        "LAA 1532",
+        "Select one: MAC 1140 & MAC 1114 OR MAC 1147 (CT)",
+        "State Core Gen Ed Biological or Physical Sciences (3 credits)"
+    ],
+    "Semester 3": [
+        "LAA 2710 (CT)",
+        "LAA 2360C (CT)",
+        "LAA 2376C (CT)",
+        "ORH 3513C (CT)"
+    ],
+    "Semester 4": [
+        "Quest 2 (Gen Ed Biological or Physical Sciences) (3 credits)",
+        "LAA 2361C (CT)",
+        "LAA 2379C (CT)",
+        "Gen Ed Social and Behavioral Sciences (3 credits)"
+    ],
+    "Semester 5": [
+        "LAA 3350C",
+        "LAA 3420 (CT)",
+        "LAA 3230"
+    ],
+    "Semester 6": [
+        "LAA 3421 (CT)",
+        "LAA 3353C",
+        "LAA 3394"
+    ],
+    "Semester 7": [
+        "ENC 3254",
+        "LAA 4356 (CT)",
+        "LAA 4357",
+        "LAA 4450"
+    ],
+    "Semester 8": [
+        "LAA 4210 (CT)",
+        "LAA 4358",
+        "LAA 4940 (CT)",
+        "Elective (3 credits)"
+    ]
+}

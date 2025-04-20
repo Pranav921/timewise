@@ -1,0 +1,59 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "BME 3406",
+        "Select one: CHM 2045 & 2045L OR CHM 2095 & 2095L (CT)",
+        "MAC 2311 (CT)",
+        "State Core Gen Ed Humanities2,3 (3 credits)"
+    ],
+    "Semester 2": [
+        "Select one: CHM 2046 & 2046L OR CHM 2096 & 2096L (CT)",
+        "ENC 1101",
+        "MAC 2312 (CT)",
+        "PHY 2048 & 2048L (CT)",
+        "State Core Gen Ed Social and Behavioral Sciences2,3 (3 credits)"
+    ],
+    "Semester 3": [
+        "COP 2273",
+        "ECH 2934 (CT)",
+        "ECH 3023 (CT)",
+        "MAC 2313 (CT)",
+        "MAP 2302 (CT)"
+    ],
+    "Semester 4": [
+        "COT 3502 (CT)",
+        "ECH 3101 (CT)",
+        "ECH 3264 (CT)",
+        "PHY 2049 & 2049L (CT)",
+        "STA 3032orSTA 2023 (CT)"
+    ],
+    "Semester 5": [
+        "CHM 2210",
+        "ECH 3203 (CT)",
+        "ECH 3223 (CT)",
+        "ECH 4123 (CT)",
+        "ENC 3246 (CT)"
+    ],
+    "Semester 6": [
+        "CHM 2211 (CT)",
+        "ECH 4224L (CT)",
+        "ECH 4403 (CT)",
+        "ECH 4714 (CT)",
+        "Technical electives1 (6 credits)"
+    ],
+    "Semester 7": [
+        "CGN 3710orEEL 3003 (CT)",
+        "ECH 4404L",
+        "ECH 4504 (CT)",
+        "ECH 4604 (CT)",
+        "ECH 4824 (CT)",
+        "Technical elective1,6 (3 credits)"
+    ],
+    "Semester 8": [
+        "Quest 2 (Gen Ed Social and Behavioral Sciences)2 (3 credits)",
+        "CHM 2211L (CT)",
+        "ECH 4323 & 4323L",
+        "ECH 4644",
+        "Chemical engineering technical elective (3 credits)"
+    ]
+}

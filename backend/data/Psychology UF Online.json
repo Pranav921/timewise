@@ -1,0 +1,48 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "MAC 1147 (CT)",
+        "Gen Ed Physical Sciences (3 credits)",
+        "Foreign language (5 credits)"
+    ],
+    "Semester 2": [
+        "PSY 2012 (CT)",
+        "State Core Gen Ed Composition (Writing Requirement) (3 credits)",
+        "State Core Gen Ed Humanities (3 credits)",
+        "Foreign language (5 credits)"
+    ],
+    "Semester 3": [
+        "BSC 2005 (CT)",
+        "PSY 3213L (CT)",
+        "Gen Ed Humanities (3 credits)",
+        "Electives (10 credits)"
+    ],
+    "Semester 4": [
+        "Quest 2 Course (Gen Ed Biological or Physical Sciences OR Gen Ed Social and Behavioral Sciences) (3 credits)",
+        "STA 2023 (CT)",
+        "Foundation-level psychology course (3 credits)",
+        "Foundation-level psychology course (Gen Ed Social and Behavioral Sciences; areanottaken in Semester 2 or 3) (3 credits)",
+        "Elective (or Gen Ed Physical Science if Quest 2 course is not Physical Science) (3 credits)"
+    ],
+    "Semester 5": [
+        "Gen Ed Composition (Writing Requirement) (3 credits)",
+        "Foundation-level psychology course (Gen Ed Biological Sciences) (3 credits)",
+        "Select one foundation-level psychology course (Gen Ed Social and Behavioral Sciences) (3 credits)",
+        "Elective (3000 level or above, not in major) (3 credits)",
+        "Elective (3 credits)"
+    ],
+    "Semester 6": [
+        "Psychology courses (Critical Tracking; 3000 level or above) (CT) (6 credits)",
+        "Electives (3000 level or above, not in major) (9 credits)"
+    ],
+    "Semester 7": [
+        "Psychology course (Critical Tracking; 3000 level or above) (CT) (3 credits)",
+        "Elective (3000 level or above, not in major) (3 credits)",
+        "Electives (10 credits)"
+    ],
+    "Semester 8": [
+        "Psychology course (Critical Tracking; 3000 level or above) (CT) (3 credits)",
+        "Elective (3000 level or above, not in major) (3 credits)",
+        "Electives (10 credits)"
+    ]
+}

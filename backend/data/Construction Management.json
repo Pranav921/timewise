@@ -1,0 +1,59 @@
+{
+    "Semester 1": [
+        "BCN 1210 (CT)",
+        "DCP 1003orBCN 1001",
+        "ENC 1101",
+        "PHY 2053 & 2053L (CT)",
+        "STA 2023 (CT)"
+    ],
+    "Semester 2": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "Select one: ECO 2013 OR ECO 2023 (CT)",
+        "Select one: AML 2070 OR ENC 1102",
+        "LIT 2110",
+        "Gen Ed Physical Sciences2 (3 credits)",
+        "Any SPN  course, SPC course, COM course, or General Education course (3 credits)"
+    ],
+    "Semester 3": [
+        "Quest 2 (Gen Ed Physical or Biological Sciences OR Gen Ed Social and Behavioral Sciences) (3 credits)",
+        "BCN 1251C (CT)",
+        "BCN 2405C (CT)",
+        "MAC 2311orMAC 2233",
+        "State Core Gen Ed Humanities with Diversity (3 credits)"
+    ],
+    "Semester 4": [
+        "ACG 2021 (CT)",
+        "BUL 4310 (CT)",
+        "ENC 3254 (CT)",
+        "Any SPN  course, SPC course, COM course, or General Education course orBCN 1582"
+    ],
+    "Semester 5": [
+        "BCN 3027C",
+        "BCN 3224C",
+        "BCN 3255C",
+        "BCN 3431C",
+        "BCN 3730 (CT)"
+    ],
+    "Semester 6": [
+        "BCN 3223C",
+        "BCN 3521C",
+        "BCN 3611C",
+        "BCN 3700 (CT)",
+        "MAN 3025",
+        "BCN elective (3 credits)"
+    ],
+    "Semester 7": [
+        "BCN 4423C",
+        "BCN 4510C",
+        "BCN 4612C (CT)",
+        "BCN 4720",
+        "BCN elective (3 credits)"
+    ],
+    "Semester 8": [
+        "BCN 3281C",
+        "BCN 4709C",
+        "BCN 4787C (CT)",
+        "BCN 4753",
+        "Elective (BCN or approved) (3 credits)"
+    ]
+}

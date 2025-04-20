@@ -1,0 +1,63 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "Select one: CHM 2045 OR CHM 2095 (CT)",
+        "CHM 2045L",
+        "ENC 1101orENC 1102",
+        "EML 2920",
+        "MAC 2311 (CT)"
+    ],
+    "Semester 2": [
+        "EML 2023 (CT)",
+        "ENC 3246",
+        "MAC 2312 (CT)",
+        "PHY 2048 (CT)",
+        "PHY 2048L",
+        "Science elective (3 credits)"
+    ],
+    "Semester 3": [
+        "Quest 2 (Gen Ed Social and Behavioral Sciences)2 (3 credits)",
+        "COP 2271",
+        "EGM 2511",
+        "EML 2322L",
+        "MAC 2313 (CT)",
+        "PHY 2049 (CT)",
+        "PHY 2049L"
+    ],
+    "Semester 4": [
+        "EGM 3344",
+        "EGM 3520",
+        "EMA 3010",
+        "EML 3100",
+        "MAP 2302 (CT)",
+        "State Core Gen Ed Humanities2 (3 credits)"
+    ],
+    "Semester 5": [
+        "EEL 3003",
+        "EGM 3401",
+        "EGN 3353C",
+        "EML 3301C",
+        "State Core Gen Ed Social and Behavioral Sciences2 (3 credits)"
+    ],
+    "Semester 6": [
+        "EML 3005",
+        "EML 4140",
+        "EML 4220",
+        "EML 4312",
+        "Select one: Gen Ed Humanities; Writing Requirement: 6,000 words2 OR Gen Ed Social and Behavioral Sciences; Writing Requirement: 6,000 words2"
+    ],
+    "Semester 7": [
+        "EML 4147C",
+        "Select one: EML 4501 OR EAS 4700",
+        "EAS 4710",
+        "EML 4507",
+        "Technical electives (6 credits)"
+    ],
+    "Semester 8": [
+        "EML 4314C",
+        "EML 4321",
+        "EML 4502",
+        "Specialization elective (3 credits)",
+        "Technical elective (3 credits)"
+    ]
+}

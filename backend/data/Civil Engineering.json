@@ -1,0 +1,69 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities)1 (3 credits)",
+        "Select one: CHM 2045 OR CHM 2095 (CT)",
+        "CHM 2045L",
+        "ENC 1101",
+        "MAC 2311 (CT)"
+    ],
+    "Semester 2": [
+        "ENC 3246",
+        "MAC 2312 (CT)",
+        "PHY 2048 (CT)",
+        "PHY 2048L",
+        "State Core Gen Ed Humanities1 (3 credits)",
+        "State Core Gen Ed Social and Behavioral Sciences1 (3 credits)"
+    ],
+    "Semester 3": [
+        "Quest 2 (Gen Ed Physical/Biological Science or Science Elective - Select one):2 (3 credits)",
+        "IDS 2935",
+        "IDS 2935",
+        "IDS 2935",
+        "IDS 2935",
+        "IDS 2935",
+        "IDS 2935",
+        "IDS 2935",
+        "IDS 2935",
+        "COP 2273",
+        "MAC 2313 (CT)",
+        "PHY 2049 (CT)",
+        "STA 3032orSTA 2023"
+    ],
+    "Semester 4": [
+        "CGN 2328",
+        "EEL 3003",
+        "EGM 2511",
+        "MAP 2302 (CT)",
+        "Gen Ed Social and Behavioral Sciences with International; Writing Requirement: 6,000 words (3 credits)"
+    ],
+    "Semester 5": [
+        "CGN 3501C (CT)",
+        "CGN 4160",
+        "EIN 3354",
+        "EGM 3520 (CT)",
+        "Select one: ARC 4310C OR ARC 4511",
+        "GIS 3072C",
+        "SUR 3103C",
+        "SWS 4720C",
+        "URP 4273"
+    ],
+    "Semester 6": [
+        "CEG 4011 (CT)",
+        "CES 3102 (CT)",
+        "CWR 3201 (CT)",
+        "EGM 3400 (CT)",
+        "TTE 4004C"
+    ],
+    "Semester 7": [
+        "CGN 3421",
+        "EGS 4034",
+        "Second-Level Core courses (Critical Tracking) (CT) (9 credits)",
+        "Approved Technical elective (3 credits)"
+    ],
+    "Semester 8": [
+        "Second-Level Core course (3 credits)",
+        "CGN 4806orCGN 4910 (CT)",
+        "Approved Design elective (3 credits)",
+        "Approved Technical electives (6 credits)"
+    ]
+}

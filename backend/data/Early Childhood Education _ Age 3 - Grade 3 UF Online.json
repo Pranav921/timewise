@@ -1,0 +1,58 @@
+{
+    "Semester 1": [
+        "Quest 1 (Gen Ed Humanities) (3 credits)",
+        "State Core Gen Ed Biological or Physical Sciences (3 credits)",
+        "State Core Gen Ed Composition; Writing Requirement: 6,000 words (3 credits)",
+        "State Core Gen Ed Mathematics (3 credits)",
+        "State Core Gen Ed Social and Behavioral Sciences (3 credits)"
+    ],
+    "Semester 2": [
+        "EDF 1005 (CT)",
+        "Select one: EDF 3110 OR DEP 3053",
+        "Gen Ed Composition; Writing Requirement: 6,000 words (3 credits)",
+        "State Core Gen Ed Humanities (3 credits)",
+        "Gen Ed Mathematics (3 credits)"
+    ],
+    "Semester 3": [
+        "EDF 2085 (CT)",
+        "Gen Ed Biological or Physical Sciences (3 credits)",
+        "Elective (Gen Ed International) or a foreign language (3 credits)",
+        "Elective (Writing Requirement: 6,000 words) (3 credits)",
+        "Elective (3 credits)"
+    ],
+    "Semester 4": [
+        "Quest 2 (Gen Ed Biological or Physical or Social Sciences) (3 credits)",
+        "EME 2040 (CT)",
+        "Elective (Gen Ed International) (3 credits)",
+        "Elective (Writing Requirement: 6,000 words) (3 credits)",
+        "Elective (3 credits)"
+    ],
+    "Semester 5": [
+        "EDF 3122",
+        "EEC 3012",
+        "EEC 3404",
+        "EEC 3941",
+        "EEC 4712"
+    ],
+    "Semester 6": [
+        "EDF 3433",
+        "EEC 3213",
+        "EEC 3941",
+        "EEC 4252",
+        "EEX 4294"
+    ],
+    "Semester 7": [
+        "EEC 3421"
+    ],
+    "Semester 8": [
+        "EEC 4253",
+        "EEC 4945",
+        "RED 3309",
+        "TSL 4324"
+    ],
+    "Semester 9": [
+        "EEC 4247",
+        "EEC 4942",
+        "EEC 4945"
+    ]
+}
